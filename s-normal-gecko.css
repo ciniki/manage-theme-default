@@ -1,0 +1,22 @@
+div.media div.imgwrap {
+	box-shadow: #777 1px 1px 3px;
+}
+
+table.list {
+	-moz-border-radius: 7px;
+	box-shadow: #777 1px 1px 3px;
+}
+
+table.form {
+	box-shadow: none;
+}
+
+h2 {
+	text-shadow: #fff 1px 1px 0px;
+}
+
+.headerbar,
+#m_login input.button,
+#m_login button {
+	box-shadow: #777 1px 1px 3px;
+}

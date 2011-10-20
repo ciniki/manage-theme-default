@@ -1,0 +1,26 @@
+div.media div.imgwrap {
+	-webkit-box-shadow: #777 1px 1px 3px;
+}
+table.form td.select > select,
+table.list {
+	-webkit-border-radius: 7px;
+	-webkit-box-shadow: #777 1px 1px 3px;
+}
+
+table.form {
+	-webkit-box-shadow: none;
+}
+
+h2 {
+	text-shadow: #fff 1px 1px 0px;
+}
+
+.headerbar,
+#m_login input.button,
+#m_login button {
+	-webkit-box-shadow: #777 1px 1px 3px;
+}
+
+div.wide table.simplegrid {
+	width: 100%;
+}

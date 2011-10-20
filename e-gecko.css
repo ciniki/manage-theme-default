@@ -1,0 +1,123 @@
+table.form td.textarea,
+table.form td.input input {
+	-moz-border-radius: 7px;
+	box-shadow: #777 0px 1px 3px inset;
+}
+
+table.list tr.textfield > td > input:-moz-placeholder {
+	color: #ccc;
+}
+
+button, input.button {
+	border: 1px solid #ddd;
+	-moz-border-radius: 7px;
+	background: -moz-linear-gradient(top, #eee, #bbb);
+	text-shadow: #eee 1px 1px 0px;
+	padding: 3px 10px 3px 10px;
+}
+
+table.simplebuttons > tbody > tr > td.button {
+	background: -moz-linear-gradient(top, #999, #555); 
+	text-shadow: #555 -1px 1px 0px; 
+	text-decoration: none; 
+	border: 0px;
+}
+
+table.form span.flag_on,
+table.form span.flag_off {
+	-moz-border-radius: 7px;
+}
+
+table.form span.flag_on {
+	background: -moz-linear-gradient(top, #555, #999);
+	text-shadow: 1px 1px 0px #555; 
+	-moz-box-shadow: inset 1px 1px 0px 0px #555;
+	color: #ddd;
+	border: 1px solid #bbb;
+}
+
+table.form span.flag_off {
+	background: -moz-linear-gradient(top, #eee, #bbb);
+	text-shadow: 1px 1px 0px #eee; 
+	-moz-box-shadow: 1px 1px 2px 0 #555;
+	color: #777;
+	border: 1px solid #bbb;
+}
+
+table.simplebuttons > tbody > tr > td.delete {
+	background: -moz-linear-gradient(top, #ec4a0b, #ad390c); 
+	text-shadow: 0 -1px 1px #953403; text-decoration: none; 
+	border: 0px;
+}
+
+.headerbar button {
+	margin: 0 0.5em 0 0.5em;
+	padding: 3px 7px 3px 7px;
+	-moz-border-radius: 1em;
+}
+
+.headerbar td.title {
+    text-shadow: #000 1px 1px 0px;
+}
+
+.headerbar td.homebutton {
+	padding: 0.1em 0em 0.1em 0.3em;
+}
+
+.headerbar td.helpbutton {
+	padding: 0.1em 0.3em 0.1em 0em;
+}
+
+.headerbar td.avatar img {
+	/* FIXME: In the future this can have rounded corners */
+}
+
+.subheaderbar td.title {
+	text-shadow: #ddd 1px 1px 0px;
+}
+
+.subheaderbar {
+	-moz-border-radius-bottomleft: 7px;
+	-moz-border-radius-bottomright: 7px;
+}
+
+table.list > tbody > tr:first-child > td:first-child > textarea,
+table.form > tbody > tr table,
+table.form > tbody > tr table tbody,
+table.form > tbody > tr table tr:first-child > td:first-child,
+table.header > thead > tr:first-child > th:first-child,
+table.noheader > tbody > tr:first-child > td:first-child {
+	-moz-border-radius-topleft: 7px;
+}
+
+table.list > tbody > tr:first-child > td:last-child > textarea,
+table.form > tbody > tr table,
+table.form > tbody > tr table tbody,
+table.form > tbody > tr table tr:first-child > td:last-child,
+table.header > thead > tr:first-child > th:last-child,
+table.noheader > tbody > tr:first-child > td:last-child {
+	-moz-border-radius-topright: 7px;
+}
+
+table.list > tbody > tr:last-child > td:first-child > textarea,
+table.form > tbody > tr table,
+table.form > tbody > tr table tbody,
+table.list > tbody > tr table tr:last-child > td:first-child,
+table.list > tbody > tr:last-child > td:first-child {
+	-moz-border-radius-bottomleft: 7px;
+}
+
+table.list > tbody > tr:last-child > td:last-child > textarea,
+table.list > tbody > tr table,
+table.list > tbody > tr table tr:last-child > td:last-child,
+table.list > tbody > tr:last-child > td:last-child {
+	-moz-border-radius-bottomright: 7px;
+}
+
+table.list > tbody > tr table.calendar tr td {
+	/* -moz-border-radius: 0px !important; */
+}
+
+table.list td > div.colourswatches > span.selected {
+	 box-shadow: #777 1px 1px 3px;
+}

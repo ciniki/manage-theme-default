@@ -1,0 +1,35 @@
+body {
+	height: 100%;
+}
+
+#m_login {
+    height: 100%;
+	overflow: hidden;
+}
+
+#m_container div.narrow {
+	width: 40em;
+}
+
+#m_help {
+	height: 100%;
+}
+
+table.form td.textarea,
+table.form td.input input {
+	-webkit-border-radius: 7px;
+	border: 1px solid #777;
+	-webkit-box-shadow: none;
+}
+
+input {
+	border: 1px solid #777;
+}
+
+input, textarea {
+	-webkit-appearance: textfield;
+}
+
+table.form span.flag_on {
+	-webkit-box-shadow: none;
+}

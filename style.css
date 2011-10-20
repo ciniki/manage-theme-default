@@ -1,0 +1,1040 @@
+/******* The top bar across the window ******/
+.headerbar {
+	width: 100%;
+	background: #778;
+	height: 2.5em;
+	margin: 0px;
+	padding: 0px;
+	table-layout: fixed;
+}
+
+.headerbar td {
+	margin: 0px;
+	padding: 0px;
+}
+
+.headerbar td.leftbuttons {
+	text-align:left;
+	padding: 0.3em 0.2em 0.2em 0.2em;
+	width: 20%;
+}
+
+.headerbar td.rightbuttons {
+	text-align:right;
+	padding: 0.3em 0.2em 0.2em 0em;
+	width: 20%;
+}
+
+.headerbar td.homebutton {
+	text-align:center;
+	padding: 0.2em;
+	padding: 0.2em 0em 0.2em 0.4em;
+	width: 2.2em;
+}
+
+.headerbar td.avatar img {
+	width: 1.8em;
+	height: 1.8em;
+	border: 1px solid #eee;
+}
+
+.headerbar td.helpbutton {
+	text-align:center;
+	width: 2.1em;
+	padding: 0.2em 0.4em 0.2em 0em;
+}
+
+.headerbar td.title {
+	font-size: 1.2em;
+	text-align:center;
+	color: #eee;
+	width: 50%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.headerbar td img {
+	width: 1.9em;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+/************* Panel Markups      **************/
+
+/* These can be specific for help or apps by add #m_container or #m_help in front */
+
+div.narrow {
+	margin: 0 auto;
+	width: 20em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+div.medium {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+div.wide {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+
+h2 {
+	display: block;
+	font-size: 1.1em;
+	font-weight: normal;
+	text-align: left;
+	padding: 0em 0em 0.2em 0.5em;
+	margin: 0 auto;
+	border: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+table.list {
+	width: 100%;
+	text-align: left;
+	padding: 0px;
+	margin-bottom: 1em;
+	table-layout: fixed;
+}
+
+table.form {
+	table-layout: auto;
+}
+
+table.thread {
+	table-layout: auto;
+}
+
+table.simplegrid {
+	table-layout: auto;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.simplegrid th.sortable {
+	cursor: pointer;
+}
+
+div.wide table.simplegrid {
+	min-width: 40em;
+}
+
+div.wide h2 {
+	width: 100%;
+	min-width: 10em;
+}
+
+table.outline {
+	border: 1px solid #ddd;
+	padding: 0.1em 0.1em 0.1em 0.1em;
+}
+
+table.list > thead,
+table.list > tbody {
+	width: 100%;
+}
+
+table.list > thead > tr,
+table.list > tbody > tr {
+	width: 100%;
+}
+
+table.border.header > thead > tr:first-child > th,
+table.border.noheader > tbody > tr:first-child > td {
+	border-top: 1px solid #bbb;
+}
+
+table.border {
+	background: #fff;
+}
+
+table.border > thead > tr > th:first-child,
+table.border > tbody > tr > td:first-child {
+	border-left: 1px solid #bbb;
+}
+
+table.border > thead > tr > th:last-child,
+table.border > tbody > tr > td:last-child {
+	border-right: 1px solid #bbb;
+}
+
+table.list > tbody > tr > td {
+	padding: 0.5em;
+}
+
+table.border > tbody > tr > td {
+	border-bottom: 1px solid #bbb;
+}
+
+table.list > thead > tr > th {
+	padding: 0.5em;
+	background: #eee;
+}
+
+table.border > thead > tr > th {
+	border-bottom: 1px solid #bbb;
+}
+
+table.list > tbody > tr > td.noborder {
+	border-right: 0px;
+}
+
+table.list > tbody > tr > td.buttons {
+	text-align: right;
+	padding-right: 0px;
+	width: 2em;
+}
+
+table.border tr.textfield > td.label {
+	border-left: 1px solid #bbb;	
+	border-right: 0px solid #bbb;	
+}
+
+table.list tr.textfield > td.label {
+	padding: 0.5em;
+	text-align: right;
+}
+
+table.form tr.textfield > td.label > label {
+	white-space: nowrap;
+}
+
+table.simplegrid td.label,
+table.simplelist td.label {
+	text-align: right;
+	color: #bbb;
+	font-size: 0.9em;
+	width: 20%;
+	min-width: 6em;
+}
+
+table.simplebuttons td.button {
+	text-align: center;	
+	cursor: pointer;
+	font-weight: bold; 
+	background: #555;
+	color: #eee;
+}
+
+table.simplebuttons td.save {
+	background: #555;
+	color: #eee;
+}
+
+table.simplebuttons td.delete {
+	background: #f55;
+	color: #eee;
+
+}
+
+table.border tr.textfield > td.hidelabel {
+	border-left: 1px solid #bbb;	
+	border-right: 0px;
+}
+
+table.list tr.textfield > td.hidelabel {
+	padding: 0.5em 0 0.5em 0.5em;
+	width: 5px !important;
+	height: 1em;
+	overflow: hidden;
+}
+
+table.list tr.textfield > td.hidelabel > label {
+	display: none;
+	overflow: hidden;
+}
+
+table.border tr.textfield > td.input {
+	border-left: 1px solid #bbb;	
+}
+
+table.list tr.textfield > td.input {
+	font-size: 1em;
+	width: 100%;
+	padding: 0.3em 0.5em 0.3em 0.2em;
+	margin: 0px;
+	vertical-align: center;
+}
+
+table.list tr.gridfields > td > input,
+table.list tr.textfield > td > input {
+	width: 100%;
+	height: 100%;
+	padding: 0.4em;
+	padding-right: 0;
+	font-size: 1.0em;
+	color: #555;
+	text-align: left;
+	margin: 0px;
+	border: 0px;
+	text-overflow: ellipsis
+	white-space: nowrap;
+}
+
+table.list tr.textfield > td.select {
+	width: 100%;
+	height: 100%;
+}
+
+table.form td.select > select {
+	width: 100%;
+	height: 100%;
+	padding: 0.4em;
+	font-size: 1.0em;
+	color: #555;
+	text-align: left;
+	margin: 0.4em;
+	border: 0px;
+	text-overflow: ellipsis
+	white-space: nowrap;
+	border: 1px solid #bbb;
+}
+
+table.list tr.textfield > td.toggle {
+	border-left: 0px;
+	text-align: left;
+	padding: 0.5em;
+}
+
+table.list tr.textfield > td.toggle > img {
+	height: 1.5em;
+}
+
+table.list tr.textfield > td.textarea {
+	width: 100%;
+	background: #fff;
+	padding: 0 0em 0 0em;
+	margin: 0px;
+	padding: 0.4em; 
+}
+
+table.list tr.textfield > td > textarea {
+	width: 100%;
+	height: 10em;
+	padding: 0.4em;
+	padding: 0.0em;
+	font-size: 1.0em;
+	color: #555;
+	text-align: left;
+	margin: 0em;
+	border: 0px;
+}
+
+table.form tr.textfield > td > textarea.small {
+	height: 3em;
+}
+
+table.list tr > td.noedit {
+	padding: 0.5em;
+	width: 95%;
+}
+
+table.border tr > td.historybutton {
+	border-right: 1px solid #bbb;	
+}
+
+table.list tr > td.historybutton {
+	padding: 0.1em 0.5em 0.1em 0.2em;
+	cursor: pointer;
+	vertical-align: middle;
+	text-align: right;
+	width: 1.4em;
+}
+
+table.list tr > td > img.calendarbutton {
+	padding: 0.1em 0.5em 0.2em 0.2em;
+	cursor: pointer;
+	vertical-align: middle;
+	text-align: right;
+	margin-right: 0px;
+	margin-left: auto;
+	width: 1.4em;
+}
+
+table.border tr.fieldcalendar > td.calendar {
+	border-left: 1px solid #bbb;	
+	border-right: 1px solid #bbb;	
+	border-bottom: 1px solid #bbb;	
+}
+
+table.list tr.fieldcalendar > td.calendar {
+	text-align: left;
+	padding: 0em;
+	width: 100%;
+	vertical-align: top;
+	text-align: center;
+}
+
+table.list div.calendar {
+	display: inline-block;
+	margin: 1px;
+	padding: 0px;
+	vertical-align: top;
+	border: 0px;
+	min-width: 12em;
+}
+
+table.list table.calendar {
+	background: #bbb;
+	border: 0px;
+	empty-cells: show;
+	width: 100%;
+	margin: 1px;
+	padding: 0px;
+	font-size: 0.8em;
+	/* border-collapse: collapse; */
+	border-top: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+}
+
+table.list table.calendar td {
+	text-align: center;
+	padding: 0.25em;
+	background: #eee;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	cursor: pointer;
+}
+
+table.list table.calendar td.empty {
+	background: #ddd;
+	cursor: default;
+}
+
+table.list table.calendar td.today {
+	background: #dfd;
+}
+
+table.list table.calendar td.selected {
+	background: #ddf;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+table.list table.calendar td.newselection {
+	background: #fdf;
+}
+
+table.list div.calendar table.calendar > thead td {
+	background: #bbb;
+	font-size: 1em;
+}
+
+table.list div.appointments {
+	display: block;
+	border: 0px;
+	vertical-align: top;
+	width: 100%;
+}
+
+table.list div.appointments table.appointments {
+	background: #bbb;
+	border: 0px;
+	empty-cells: show;
+	width: 100%;
+	margin: 1px;
+	padding: 0px;
+	font-size: 0.8em;
+	/* border-collapse: collapse; */
+	border-top: 1px solid #bb0;
+	border-left: 1px solid #bbb;
+}
+
+table.list div.appointments table.appointments td {
+	text-align: center;
+	padding: 0.25em;
+	background: #eee;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+
+table.list div.appointments table.appointments td.schedule_time {
+	background: #eee;
+	cursor: pointer;
+	text-align: right;
+	width: 5em;
+	max-width: 10em;
+}
+
+table.list div.appointments table.appointments td.empty {
+	background: #ddd;
+	cursor: default;
+}
+
+table.form tr.fieldcolourpicker	div.colours,
+table.form tr.fieldcolourpicker	div.colourpicker {
+	display: inline-block;
+	border: 0px;
+	vertical-align: top;
+	width: 50%;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+table.form tr.fieldcolourpicker span.colourswatch {
+	margin: 0.3em;
+	cursor: pointer;
+}
+
+table.form tr.fieldcolourpicker div.colourpicker table.colourpicker {
+	border: 1px solid #bbb;
+	width: 100%;
+}
+
+table.form tr.fieldcolourpicker div.colourpicker table.colourpicker td {
+	vertical-align: top;
+	text-align: center;
+	background: #eee;
+	padding: 0.3em;
+}
+
+table.form tr.fieldcolourpicker div.colourpicker table.colourpicker td:first-child {
+	border-right: 1px solid #bbb;
+}
+
+table.form tr.fieldcolourpicker div.colours table.colours {
+	border: 1px solid #bbb;
+	width: 100%;
+}
+table.form tr.fieldcolourpicker div.colours table.colours td {
+	background: #eee;
+	padding: 0.3em;
+}
+
+
+table.list table.appointments td.appointment {
+	
+}
+
+table.list table.fieldhistory tr td {
+	padding: 0.5em;
+	color: #555;
+	text-align: left;
+}
+
+table.list > tbody > tr > td.truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+p {
+	margin: 0;
+	/* padding: 1em 0.5em 1em 0.5em; */
+}
+
+
+table.list tr > td.helpbutton {
+	padding: 0.1em 0.5em 0.1em 0.2em;
+	cursor: pointer;
+	vertical-align: middle;
+	text-align: right;
+	width: 1.4em;
+}
+
+table.border tr > td.nohistorybutton {
+	border-right: 1px solid #bbb;	
+}
+
+table.list tr > td.nohistorybutton {
+	padding: 0 0.5em 0 0em;
+}
+
+table.list tr > td.historybutton > img {
+	width: 1.4em;
+	vertical-align: middle;
+}
+
+table.list tr > td.calendarbutton > img {
+	width: 1.4em;
+	vertical-align: middle;
+}
+
+table.list tr > td.helpbutton > img {
+	width: 1.4em;
+	vertical-align: middle;
+}
+
+
+
+table.list tr.fieldhistory {
+	text-align: left;
+}
+
+table.border td.history {
+	border-left: 1px solid #bbb;	
+	border-right: 1px solid #bbb;	
+	border-bottom: 1px solid #bbb;	
+}
+
+table.list td.colourpicker,
+table.list td.history {
+	text-align: left;
+	padding: 0em;
+}
+
+table.border td.nohistory {
+	border-left: 1px solid #bbb;	
+	border-right: 1px solid #bbb;	
+	border-bottom: 1px solid #bbb;	
+}
+
+table.list td.nohistory {
+	text-align: left;
+	padding: 0.5em;
+}
+
+table.list > tbody > tr.followup > td {
+	font-size: 0.9em;
+	vertical-align: top;
+}
+
+
+table.form table.fieldhistory {
+	padding: 0em;
+	width: 100%;
+	empty-cells: show;
+}
+
+table.list table.fieldhistory tr td {
+	padding: 0.5em;
+	color: #555;
+	text-align: left;
+	font-size: 1em;
+	background: #eee;
+}
+
+table.list table.fieldhistory tr td:last-child {
+	
+}
+
+table.border table.fieldhistory td {
+	border-bottom: 1px solid #777;
+}
+
+table.list table.fieldhistory td.fieldvalue {
+	text-align: right;
+	cursor: pointer;
+	white-space: pre-line;
+}
+
+table.list td.searchresults {
+	text-align: left;
+	padding: 0em;
+}
+
+table.list td.nosearchresults {
+	border-top: 1px solid #bbb;	
+	border-left: 1px solid #bbb;	
+	border-right: 1px solid #bbb;	
+	border-bottom: 1px solid #bbb;	
+}
+
+table.list td.nosearchresults {
+	text-align: left;
+	padding: 0.5em;
+}
+
+table.list table.searchresults {
+	padding: 0em;
+	width: 100%;
+	empty-cells: show;
+}
+
+table.list table.searchresults tr td {
+	border-left: 1px solid #bbb;	
+	border-right: 1px solid #bbb;	
+	border-bottom: 1px solid #bbb; 
+}
+
+table.list table.searchresults tr td {
+	padding: 0.5em;
+	color: #555;
+	text-align: left;
+	font-size: 1em;
+	background: #eee;
+	cursor: pointer;
+}
+
+table.list table.searchresults tr:first-child td {
+	border-top: 1px solid #bbb;
+}
+
+table.border table.searchresults td {
+	border-bottom: 1px solid #bbb;
+}
+table.border table.searchresults tr:last-child td {
+	border-bottom: 0px;
+}
+
+table.list table.searchresults td.fieldvalue {
+	text-align: right;
+	cursor: pointer;
+}
+
+table.list table.searchresults td.buttons {
+	text-align: right;
+	padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+table.list table.searchresults td.buttons > button {
+	text-align: center;
+	font-size: 0.8em !important;
+	padding: 0.2em 0.8em 0.2em 0.8em;
+}
+
+table.list td.alert {
+	background: #fee;
+}
+
+table.simplegrid td.label {
+	text-align: right;
+}
+
+table.simplegrid td.border {
+	border-right: 1px solid #bbb;
+}
+
+table.simplegrid td.center {
+	text-align: center;
+}
+
+table.list td div.dragdrop_cell {
+	width: 100%;
+	height: 1em;
+}
+
+table.simplegrid td.excel_deleted {
+	background: #ddd;
+}
+
+table.simplegrid td.excel_keep {
+	background: #efe;
+}
+
+table.list > tbody > tr > td.textbuttons {
+	padding: 0.4em;
+}
+
+table.list > tbody > tr > td.multiline > span.maintext {
+	width: 100%;
+	display: block;
+}
+
+table.list > tbody > tr > td.multiline {
+	padding: 0.4em;
+}
+
+table.list > tbody > tr > td.multiline > span.subtext {
+	width: 100%;
+	font-size: 0.8em;
+	color: #999;
+}
+
+table.list > tbody > tr > td.aligncenter {
+	text-align: center;
+}
+
+table.simplegrid td.lightborderright {
+	border-right: 1px solid #ddd;
+}
+
+/*****  MEDIA display styles ****/
+div.media {
+	display: block;
+	text-align: center;
+}
+
+div.media div.media_thumb {
+	border: 0px solid red;
+	display: inline-block;
+	margin: 0.3em;
+	padding: 0.3em;
+}
+
+div.media div div.imgwrap {
+	padding: 0.2em;
+	background: #fff;
+	margin: 0;
+	width: 6em;
+	height: 6em;
+}
+
+div.media div.media_image div.imgwrap {
+	border: 1px solid #bbb;
+}
+
+div.media div.media_album div.imgwrap {
+	border: 3px double #bbb;
+
+}
+
+div.media div.media_trash div.imgwrap {
+	border: 1px dashed #bbb;
+}
+
+div.media div.media_parent div.imgwrap {
+	border: 1px dashed #bbb;
+}
+
+div.media div.imgwrap img {
+	width: 5.6em;
+	height: 5.6em;
+	padding: 0.2em;
+}
+
+div.media div.titlewrap {
+	width: 8.0em;
+	height: 1.0em;
+	font-size: 0.8em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0.3em;
+	white-space: nowrap;
+}
+
+div.media div.media_album div.titlewrap {
+	font-weight: bold;
+}
+
+table.datepicker {
+	table-layout: auto;
+}
+
+table.datepicker > tbody > tr > td.prev,
+table.datepicker > tbody > tr > td.next {
+	width: 2em;
+}
+
+table.datepicker > tbody > tr > td.date {
+	text-align: center;
+}
+
+table.datepicker > tbody > tr > td.prev {
+	text-align: left;
+}
+
+table.datepicker > tbody > tr > td.next {
+	text-align: right;
+}
+
+
+table.list span.colourswatch {
+	display: inline-block;
+	width: 0.9em !important;
+	height: 0.9em !important;
+	padding: 0.25em;
+	margin: 0.0em;
+	border: 1px solid #777;
+}
+
+table.form span.colourswatch {
+	margin: 0.2em;
+	cursor: pointer;
+}
+
+table.fieldhistory span.colourswatch {
+	margin: 0.0em;
+	margin-right: 0.3em;
+}
+
+table.list td > div.colourswatches > span.selected {
+	border: 3px double #aaa;
+	width: 1.2em;
+	height: 1.2em;
+}
+
+table.form > tbody > tr > td.flags {
+	padding: 0em;
+}
+
+table.form span.flag_on,
+table.form span.flag_off {
+	display: inline-block;
+	border: 1px solid #777;
+	font-weight: bold; 
+	padding: 0.25em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin: 0;
+	margin: 0.25em;
+	cursor: pointer;
+}
+
+table.form span.flag_on {
+	color: #000;
+}
+
+table.form span.flag_off {
+	color: #bbb;
+}
+
+span.username {
+}
+
+span.age {
+	font-size: 0.8em;
+	color: #888;
+	font-style: italic;
+}
+
+input.submit {
+	color: #333;
+	font-size: 1em;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+
+
+
+/**************  MOSSi App Styles **************/
+#mc_apps {
+
+}
+
+
+/********** Error screen ********/
+#m_error {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 98;
+	width: 100%;
+	height: 90%;
+}
+
+#m_error button {
+	width: 10em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 1em;
+	color: #333;
+	cursor: pointer;
+}
+
+
+/********** Login Form **********/
+#m_login {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	height: 90%;
+}
+
+#m_login form {
+	text-align: center;
+	font-size: 1em;
+	margin: 0px auto;
+	width: 90%;
+}
+
+#m_login button {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 1em;
+	color: #333;
+	cursor: pointer;
+}
+
+#m_login input.button {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 1em;
+	color: #333;
+}
+
+/* Load Spinner */
+#m_loading {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #fff;
+	text-align: center;
+	vertical-align: middle;
+	opacity: .5;
+	z-index:99;
+}
+
+#m_loading table {
+	width: 100%;
+	height: 100%;
+}
+
+#m_loading img {
+}
+
+
+
+
+
+
+
+
+
+/**********************************************************************************************/
+/****************************     OLD STYLES	 **********************************************/
+/**********************************************************************************************/
+
+
+
+/************ Help **************/
+#m_help {
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+#m_help.leftborder {
+	border-left: 1px dotted #777;
+}
+
+#m_help div.narrow {
+	width: 20em;
+	margin: 0 auto;
+}
+
+#mc_help_scroller {
+	padding: 0px;
+	margin: 0px;
+}
+
+#mc_help_content {
+}
+
+#mc_help_text {
+	margin: 0px;
+	margin-bottom: 1em;
+}
+
+#m_help table tr > td.button {
+	text-align: right;
+}
+#m_help table tr > td.button > img {
+	width: 1.4em;
+	vertical-align: middle;
+}
+
+
