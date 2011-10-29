@@ -244,6 +244,7 @@ table.simplelist td.label {
 	font-size: 0.9em;
 	width: 20%;
 	min-width: 6em;
+	padding: 0.9em 0.55em 0.8em 0.55em;
 }
 
 table.simplebuttons td.button {
@@ -761,7 +762,7 @@ table.list > tbody > tr > td.multiline > span.maintext {
 }
 
 table.list > tbody > tr > td.multiline {
-	padding: 0.4em;
+	padding: 0.3em 0.4em 0.2em 0.4em;
 }
 
 table.list > tbody > tr > td.multiline > span.subtext {
