@@ -109,11 +109,11 @@ h2 span.count {
 
 span.count {
 	font-weight: normal;
-	color: #333;
+	color: #777;
 	background: #eee;
 	display: inline-block;
 	border: 1px solid #bbb;
-	padding: 0.2em 0.8em 0.2em 0.8em;
+	padding: 0.2em 0.7em 0.2em 0.7em;
 	margin: 0px;
 }
 
