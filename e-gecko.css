@@ -8,6 +8,19 @@ table.list tr.textfield > td > input:-moz-placeholder {
 	color: #ccc;
 }
 
+h2 {
+	text-shadow: #fff 1px 1px 0px;
+	padding-top: 0.2em;
+}
+
+span.count {
+	-moz-border-radius: 1.2em;
+}
+
+table.list td span.count {
+	padding: 0.1em 0.7em 0.1em 0.7em;
+}
+
 button, input.button {
 	border: 1px solid #ddd;
 	-moz-border-radius: 7px;

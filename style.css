@@ -89,12 +89,41 @@ h2 {
 	font-size: 1.1em;
 	font-weight: normal;
 	text-align: left;
-	padding: 0em 0em 0.2em 0.5em;
+	padding: 0.2em 0em 0.2em 0.5em;
 	margin: 0 auto;
 	border: 0;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+}
+
+h2 span.count {
+	position: relative;
+	vertical-align: middle;
+	top: -0.1em;
+	margin-bottom: 0.3em;
+	margin-top: -0.3em;
+	padding: 0.2em 0.8em 0.2em 0.8em;
+	font-size: 0.6em;
+}
+
+span.count {
+	font-weight: normal;
+	color: #333;
+	background: #eee;
+	display: inline-block;
+	border: 1px solid #bbb;
+	padding: 0.2em 0.8em 0.2em 0.8em;
+	margin: 0px;
+}
+
+table.list td span.count {
+	font-size: 0.7em;
+	position: relative;
+	margin-top: -0.3em;
+	vertical-align: middle;
+	top: -0.2em;
+	margin-left: 0.5em;
 }
 
 table.list {
@@ -168,7 +197,7 @@ table.border > tbody > tr > td:last-child {
 }
 
 table.list > tbody > tr > td {
-	padding: 0.5em;
+	padding: 0.5em 0.5em 0.45em 0.5em;
 }
 
 table.border > tbody > tr > td {

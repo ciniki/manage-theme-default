@@ -12,6 +12,14 @@ table.form tr.textfield > td > input.search {
 	height: 2.0em;
 }
 
+h2 {
+	text-shadow: #fff 1px 1px 0px;
+}
+
+span.count {
+	-webkit-border-radius: 1.2em;
+}
+
 button, input.button {
 	-webkit-border-radius: 1.2em;
 	border: 1px solid #ccc;
@@ -97,9 +105,6 @@ table.list {
 	-webkit-border-radius: 7px;
 }
 
-h2 {
-	text-shadow: #fff 1px 1px 0px;
-}
 
 table.list > tbody > tr:first-child > td:first-child > textarea,
 table.list > tbody > tr table,
