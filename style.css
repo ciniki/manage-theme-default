@@ -1060,7 +1060,7 @@ input.submit {
 }
 
 #m_help table tr > td.button {
-	text-align: right;
+/* 	text-align: right; */
 }
 #m_help table tr > td.button > img {
 	width: 1.4em;
