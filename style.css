@@ -957,7 +957,9 @@ input.submit {
 }
 
 
-/********** Login Form **********/
+/********** Login, Forgot and Recovery Forms **********/
+#m_forgot, 
+#m_recover,
 #m_login {
 	position: absolute;
 	top: 0;
@@ -967,6 +969,8 @@ input.submit {
 	height: 90%;
 }
 
+#m_forgot form, 
+#m_recover form,
 #m_login form {
 	text-align: center;
 	font-size: 1em;
@@ -974,6 +978,8 @@ input.submit {
 	width: 90%;
 }
 
+#m_forgot button, 
+#m_recover button,
 #m_login button {
 	width: 100%;
 	margin-top: 5px;
@@ -984,6 +990,8 @@ input.submit {
 	cursor: pointer;
 }
 
+#m_forgot input.button, 
+#m_recover input.button,
 #m_login input.button {
 	width: 100%;
 	margin-top: 5px;
@@ -993,7 +1001,28 @@ input.submit {
 	color: #333;
 }
 
-/* Load Spinner */
+#m_forgot p.right,
+#m_recover p.right,
+#m_login p.right{
+	text-align: right;
+	text-decoration: none;
+}
+
+#m_forgot p.link a,
+#m_recover p.link a,
+#m_login p.link a,
+#m_forgot p.link a:hover,
+#m_recover p.link a:hover,
+#m_login p.link a:hover,
+#m_forgot p.link a:visited,
+#m_recover p.link a:visited,
+#m_login p.link a:visited {
+	color: #777;
+	text-decoration: none;
+}
+
+
+/********** Loading Spinner **************/
 #m_loading {
 	width: 100%;
 	height: 100%;
