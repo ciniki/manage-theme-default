@@ -1,5 +1,6 @@
 body {
 	background: #fff;
+	font-size: 80%;
 }
 
 .headerbar,
@@ -33,6 +34,22 @@ table.form td.input input {
 
 .printborder {
 	border-right: 1px solid #bbb;
+}
+
+table.list {
+	page-break-inside: avoid;
+}
+
+table tr td {
+	page-break-inside: avoid;
+	page-break-after: auto;
+}
+
+table.list thead {
+	display: table-header-group;
+}
+table.list tfoot {
+	display: table-footer-group;
 }
 
 
@@ -73,3 +90,11 @@ table.list > tbody > tr:last-child > td:last-child {
 	border-radius: 0px;
 }
 
+html,
+body,
+#m_container,
+#mc_content,
+#mc_content_scroller,
+#mc_apps {
+	overflow: visible;
+}
