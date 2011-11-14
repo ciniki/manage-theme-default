@@ -14,3 +14,15 @@ body {
 #m_help {
 	height: 100%;
 }
+
+#mc_header {
+	/* FIXME: Allow fixed header */
+	/* position: fixed;
+	top: 0;
+	left: 0; */
+}
+
+#mc_content {
+	/* FIXME: Allow fixed header */
+	/* padding-top: 55px; */
+}
