@@ -931,7 +931,9 @@ input.submit {
 	cursor: pointer;
 }
 
-
+table.simplegrid td.statusgreen {
+	background: #ddffdd;
+}
 
 
 /**************  MOSSi App Styles **************/
