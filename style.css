@@ -936,6 +936,27 @@ table.simplegrid td.statusgreen {
 }
 
 
+div.wide table.text {
+	min-width: 40em;
+	table-layout: auto;
+}
+
+table.text tr.text td pre {
+}
+
+table.text tr.text td p:first-child,
+table.text tr.text td pre:first-child {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+table.text tr.text td p:last-child,
+table.text tr.text td pre:last-child {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+
 /**************  MOSSi App Styles **************/
 #mc_apps {
 
