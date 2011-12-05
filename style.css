@@ -934,8 +934,25 @@ input.submit {
 table.simplegrid td.statusgreen {
 	background: #ddffdd;
 }
+/* Alert styles */
+table.list tr.severity50 {
+	background: #ffdddd;
+}
+table.list tr.severity40 {
+	background: #ffeebb;
+}
+table.list tr.severity30 {
+	background: #ffffee;
+}
+table.list tr.severity20 {
+	background: #eeffee;
+}
+table.list tr.severity10 {
+	background: #eeeeee;
+}
 
 
+/* Text block markups */
 div.wide table.text {
 	min-width: 40em;
 	table-layout: auto;
