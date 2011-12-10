@@ -139,6 +139,14 @@ table.list tr.textfield > td > input.time {
 	max-width: 8em;
 }
 
+table.list tr.textfield > td > input.medium {
+	max-width: 25em;
+}
+
+table.list tr.textfield > td > input.large {
+	max-width: 45em;
+}
+
 table.list > tbody > tr.followup > td.userdetails {
 	border-right: 1px dashed #bbb;
 	text-decoration: normal;
