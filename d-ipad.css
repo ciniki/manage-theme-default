@@ -26,3 +26,7 @@ body {
 	/* FIXME: Allow fixed header */
 	/* padding-top: 55px; */
 }
+
+div.mediumflex {
+	max-width: 95%;
+}

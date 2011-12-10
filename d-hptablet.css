@@ -33,3 +33,7 @@ input, textarea {
 table.form span.flag_on {
 	-webkit-box-shadow: none;
 }
+
+div.mediumflex {
+	max-width: 95%;
+}

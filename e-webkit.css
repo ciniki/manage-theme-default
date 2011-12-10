@@ -29,11 +29,28 @@ button, input.button {
 	padding: 5px 15px 5px 15px;
 }
 
-table.form span.flag_on,
-table.form span.flag_off {
+table.form td.joinedflags span.flag_on:first-child,
+table.form td.joinedflags span.flag_off:first-child,
+table.form td.multitoggle span.toggle_on:first-child,
+table.form td.multitoggle span.toggle_off:first-child {
+	-webkit-border-top-left-radius: 0.5em;
+	-webkit-border-bottom-left-radius: 0.5em;
+}
+
+table.form td.joinedflags span.flag_on:last-child,
+table.form td.joinedflags span.flag_off:last-child,
+table.form td.multitoggle span.toggle_on:last-child,
+table.form td.multitoggle span.toggle_off:last-child {
+	-webkit-border-top-right-radius: 0.5em;
+	-webkit-border-bottom-right-radius: 0.5em;
+}
+
+table.form td.flags span.flag_on,
+table.form td.flags span.flag_off {
 	-webkit-border-radius: 0.5em;
 }
 
+table.form td.multitoggle span.toggle_on,
 table.form span.flag_on {
 	background: -webkit-gradient(linear, left top, left bottom, from(#555), to(#999));
 	text-shadow: 1px 1px 0px #555; 
@@ -42,6 +59,7 @@ table.form span.flag_on {
 	border: 1px solid #bbb;
 }
 
+table.form td.multitoggle span.toggle_off,
 table.form span.flag_off {
 	background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#555));
 	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#bbb));

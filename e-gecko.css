@@ -39,11 +39,12 @@ table.simplebuttons > tbody > tr > td.button {
 	border: 0px;
 }
 
-table.form span.flag_on,
-table.form span.flag_off {
+table.form td.flags span.flag_on,
+table.form td.flags span.flag_off {
 	-moz-border-radius: 7px;
 }
 
+table.form td.multitoggle span.toggle_on,
 table.form span.flag_on {
 	background: -moz-linear-gradient(top, #555, #999);
 	text-shadow: 1px 1px 0px #555; 
@@ -52,12 +53,29 @@ table.form span.flag_on {
 	border: 1px solid #bbb;
 }
 
+table.form td.multitoggle span.toggle_off,
 table.form span.flag_off {
 	background: -moz-linear-gradient(top, #eee, #bbb);
 	text-shadow: 1px 1px 0px #eee; 
 	-moz-box-shadow: 1px 1px 2px 0 #555;
 	color: #777;
 	border: 1px solid #bbb;
+}
+
+table.form td.joinedflags span.flag_on:first-child,
+table.form td.joinedflags span.flag_off:first-child,
+table.form td.multitoggle span.toggle_on:first-child,
+table.form td.multitoggle span.toggle_off:first-child {
+	-moz-border-radius-topleft: 7px;
+	-moz-border-radius-bottomleft: 7px;
+}
+
+table.form td.joinedflags span.flag_on:last-child,
+table.form td.joinedflags span.flag_off:last-child,
+table.form td.multitoggle span.toggle_on:last-child,
+table.form td.multitoggle span.toggle_off:last-child {
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-bottomright: 7px;
 }
 
 table.simplebuttons > tbody > tr > td.delete {
