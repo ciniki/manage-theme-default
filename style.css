@@ -344,8 +344,13 @@ table.list tr.textfield > td.toggle > img {
 	height: 1.5em;
 }
 
-table.list tr.textfield > td.textarea {
+div.narrow table.list tr.textfield > td.textarea,
+div.medium table.list tr.textfield > td.textarea,
+div.wide table.list tr.textfield > td.textarea {
 	width: 100%;
+}
+
+table.list tr.textfield > td.textarea {
 	background: #fff;
 	padding: 0 0em 0 0em;
 	margin: 0px;
@@ -889,8 +894,10 @@ table.list td > div.colourswatches > span.selected {
 	height: 1.2em;
 }
 
+table.form > tbody > tr > td.multitoggle,
+table.form > tbody > tr > td.joinedflags,
 table.form > tbody > tr > td.flags {
-	padding: 0em;
+	padding: 0em 0.25em 0em 0.25em;
 }
 
 table.form td.flags span.flag_on,
@@ -914,10 +921,6 @@ table.form span.flag_off {
 	color: #bbb;
 }
 
-table.form > tbody > tr > td.multitoggle {
-	padding: 0em;
-}
-
 table.form td.joinedflags span.flag_on,
 table.form td.joinedflags span.flag_off, 
 table.form td.multitoggle span.toggle_on,
@@ -930,20 +933,6 @@ table.form td.multitoggle span.toggle_off {
 	padding-right: 0.5em;
 	margin: 0.25em 0 0.25em 0;
 	cursor: pointer;
-}
-
-table.form td.joinedflags span.toggle_on:first-child, 
-table.form td.joinedflags span.toggle_off:first-child, 
-table.form td.multitoggle span.toggle_on:first-child, 
-table.form td.multitoggle span.toggle_off:first-child  {
-	margin-left: 0.5em;
-}
-
-table.form td.joinedflags span.flag_on:last-child, 
-table.form td.joinedflags span.flag_off:last-child, 
-table.form td.multitoggle span.toggle_on:last-child, 
-table.form td.multitoggle span.toggle_off:last-child  {
-	margin-right: 0.5em;
 }
 
 table.form td.multitoggle span.toggle_on {
