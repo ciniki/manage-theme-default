@@ -477,7 +477,7 @@ table.list div.appointments {
 }
 
 table.list div.appointments table.appointments {
-	background: #bbb;
+	background: #ddd;
 	border: 0px;
 	empty-cells: show;
 	width: 100%;
@@ -501,14 +501,88 @@ table.list div.appointments table.appointments td.schedule_time {
 	background: #eee;
 	cursor: pointer;
 	text-align: right;
+	vertical-align: top;
 	width: 5em;
 	max-width: 10em;
+	border-right: 0px solid #eee;
 }
 
+table.list div.appointments table.appointments tr {
+	height: 0.5em !important;
+	max-height: 0.4em !important;
+}
+
+table.list div.appointments table.appointments td.schedule_interval {
+	height: 0.6em;
+	max-height: 0.6em !important;
+	width: 0.4em;
+	margin: 0px;
+	padding: 0px;
+	border-left: 0px solid #eee;
+}
+ 
+table.list div.appointments table.appointments td.schedule_appointment {
+	background: #aaddff;
+	text-align: left;
+	vertical-align: top;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+
+table.list div.appointments table.appointments td.schedule_appointment div.schedule_appointment {
+	text-align: left;
+	overflow: hidden;
+	padding: 0.5em;
+	margin: 0px;
+}
+
+table.list div.appointments table.appointments td.schedule_appointment p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0px;
+	padding: 0px;
+}
+ 
 table.list div.appointments table.appointments td.empty {
-	background: #ddd;
+	background: #eee;
 	cursor: default;
 }
+table.list div.appointments table.appointments td.slice_0 {
+	border-bottom: 1px solid #dfdfdf;
+}
+table.list div.appointments table.appointments td.slice_1,
+table.list div.appointments table.appointments td.slice_3 {
+	font-size: 0.8em;
+	color: #aaa;
+}
+table.list div.appointments table.appointments td.slice_2 {
+	font-size: 0.8em;
+	color: #aaa;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+table.list div.appointments table.appointments p { height: 12em; }
+table.list div.appointments table.appointments p.size_1  { height: 1.0em; }
+table.list div.appointments table.appointments p.size_2  { height: 1.0em; }
+table.list div.appointments table.appointments p.size_3  { height: 1.0em; }
+table.list div.appointments table.appointments p.size_4  { height: 1.0em; }
+table.list div.appointments table.appointments p.size_5  { height: 1.0em; }
+table.list div.appointments table.appointments p.size_6  { height: 2.0em; }
+table.list div.appointments table.appointments p.size_7 { height: 2.5em; }
+table.list div.appointments table.appointments p.size_8 { height: 3em; }
+table.list div.appointments table.appointments p.size_9 { height: 3.5em; }
+table.list div.appointments table.appointments p.size_10 { height: 4em; }
+table.list div.appointments table.appointments p.size_11 { height: 4.5em; }
+table.list div.appointments table.appointments p.size_12 { height: 5em; }
+table.list div.appointments table.appointments p.size_13 { height: 5.5em; }
+table.list div.appointments table.appointments p.size_14 { height: 6em; }
+table.list div.appointments table.appointments p.size_15 { height: 6.5em; }
+table.list div.appointments table.appointments p.size_16 { height: 7em; }
+table.list div.appointments table.appointments p.size_17 { height: 7.5em; }
+table.list div.appointments table.appointments p.size_18 { height: 8em; }
+table.list div.appointments table.appointments p.size_24 { height: 11em; }
 
 table.form tr.fieldcolourpicker	div.colours,
 table.form tr.fieldcolourpicker	div.colourpicker {

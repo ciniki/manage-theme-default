@@ -162,3 +162,7 @@ table.list > tbody > tr table.calendar tr td {
 table.list td > div.colourswatches > span.selected {
 	-webkit-box-shadow: #777 1px 1px 3px;
 }
+
+table.list div.appointments table.appointments td.schedule_appointment {
+	-webkit-border-radius: 7px;
+}
