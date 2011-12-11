@@ -167,6 +167,7 @@ table.simplegrid th.sortable {
 	cursor: pointer;
 }
 
+div.wide table.datepicker,
 div.wide table.simplegrid {
 	min-width: 40em;
 }
@@ -478,120 +479,7 @@ table.list div.calendar table.calendar > thead td {
 	font-size: 1em;
 }
 
-table.list div.appointments {
-	display: block;
-	border: 0px;
-	vertical-align: top;
-	width: 100%;
-}
 
-table.list div.appointments table.appointments {
-	background: #ddd;
-	border: 0px;
-	empty-cells: show;
-	width: 100%;
-	margin: 1px;
-	padding: 0px;
-	font-size: 0.8em;
-	/* border-collapse: collapse; */
-	border-top: 1px solid #bb0;
-	border-left: 1px solid #bbb;
-}
-
-table.list div.appointments table.appointments td {
-	text-align: center;
-	padding: 0.25em;
-	background: #eee;
-	border-right: 1px solid #bbb;
-	border-bottom: 1px solid #bbb;
-}
-
-table.list div.appointments table.appointments td.schedule_time {
-	background: #eee;
-	cursor: pointer;
-	text-align: right;
-	vertical-align: top;
-	width: 5em;
-	max-width: 10em;
-	border-right: 0px solid #eee;
-}
-
-table.list div.appointments table.appointments tr {
-	height: 0.5em !important;
-	max-height: 0.4em !important;
-}
-
-table.list div.appointments table.appointments td.schedule_interval {
-	height: 0.6em;
-	max-height: 0.6em !important;
-	width: 0.4em;
-	margin: 0px;
-	padding: 0px;
-	border-left: 0px solid #eee;
-}
- 
-table.list div.appointments table.appointments td.schedule_appointment {
-	background: #aaddff;
-	text-align: left;
-	vertical-align: top;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	padding: 0.5em;
-	margin: 0.5em;
-}
-
-table.list div.appointments table.appointments td.schedule_appointment div.schedule_appointment {
-	text-align: left;
-	overflow: hidden;
-	padding: 0.5em;
-	margin: 0px;
-}
-
-table.list div.appointments table.appointments td.schedule_appointment p {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	margin: 0px;
-	padding: 0px;
-}
- 
-table.list div.appointments table.appointments td.empty {
-	background: #eee;
-	cursor: default;
-}
-table.list div.appointments table.appointments td.slice_0 {
-	border-bottom: 1px solid #dfdfdf;
-}
-table.list div.appointments table.appointments td.slice_1,
-table.list div.appointments table.appointments td.slice_3 {
-	font-size: 0.8em;
-	color: #aaa;
-}
-table.list div.appointments table.appointments td.slice_2 {
-	font-size: 0.8em;
-	color: #aaa;
-	border-bottom: 1px solid #dfdfdf;
-}
-
-table.list div.appointments table.appointments p { height: 12em; }
-table.list div.appointments table.appointments p.size_1  { height: 1.0em; }
-table.list div.appointments table.appointments p.size_2  { height: 1.0em; }
-table.list div.appointments table.appointments p.size_3  { height: 1.0em; }
-table.list div.appointments table.appointments p.size_4  { height: 1.0em; }
-table.list div.appointments table.appointments p.size_5  { height: 1.0em; }
-table.list div.appointments table.appointments p.size_6  { height: 2.0em; }
-table.list div.appointments table.appointments p.size_7 { height: 2.5em; }
-table.list div.appointments table.appointments p.size_8 { height: 3em; }
-table.list div.appointments table.appointments p.size_9 { height: 3.5em; }
-table.list div.appointments table.appointments p.size_10 { height: 4em; }
-table.list div.appointments table.appointments p.size_11 { height: 4.5em; }
-table.list div.appointments table.appointments p.size_12 { height: 5em; }
-table.list div.appointments table.appointments p.size_13 { height: 5.5em; }
-table.list div.appointments table.appointments p.size_14 { height: 6em; }
-table.list div.appointments table.appointments p.size_15 { height: 6.5em; }
-table.list div.appointments table.appointments p.size_16 { height: 7em; }
-table.list div.appointments table.appointments p.size_17 { height: 7.5em; }
-table.list div.appointments table.appointments p.size_18 { height: 8em; }
-table.list div.appointments table.appointments p.size_24 { height: 11em; }
 
 table.form tr.fieldcolourpicker	div.colours,
 table.form tr.fieldcolourpicker	div.colourpicker {
@@ -931,6 +819,7 @@ div.media div.media_album div.titlewrap {
 }
 
 table.datepicker {
+	width: 100%;
 	table-layout: auto;
 }
 
@@ -1067,6 +956,229 @@ table.list tr.severity20 {
 table.list tr.severity10 {
 	background: #eeeeee;
 }
+
+/***************  Appointments section ****************/
+table.dayschedule {
+	table-layout: auto;
+	background: #fff;
+	border: 0px;
+	empty-cells: show;
+	width: 100%;
+	margin: 1px;
+	padding: 0px;
+	font-size: 1.0em;
+	border-top: 1px solid #bb0;
+	border-left: 1px solid #bbb;
+}
+
+table.dayschedule td {
+	text-align: center;
+	padding: 0.25em;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+
+table.dayschedule td.schedule_time {
+	background: #fff;
+	text-align: right;
+	vertical-align: top;
+	width: 5em;
+	max-width: 10em;
+	border-right: 0px solid #eee;
+	padding: 0.2em;
+}
+
+table.dayschedule tr {
+	height: 0.3em !important;
+	max-height: 0.3em !important;
+}
+
+table.dayschedule td.schedule_interval {
+	height: 0.35em;
+	max-height: 0.35em !important;
+	width: 0.4em;
+	margin: 0px;
+	padding: 0px;
+	border-left: 0px solid #eee;
+}
+ 
+table.dayschedule td.schedule_appointment {
+	text-align: left;
+	vertical-align: top;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+
+table.dayschedule td.schedule_appointment div.schedule_appointment {
+	text-align: left;
+	overflow: hidden;
+	padding: 0.5em;
+	margin: 0px;
+}
+
+table.dayschedule td.schedule_appointment p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0px;
+	padding: 0px;
+}
+ 
+table.dayschedule td.empty {
+	background: #fff;
+	cursor: default;
+}
+table.dayschedule td.slice_0 {
+	border-bottom: 1px solid #dfdfdf;
+	font-size: 0.9em;
+}
+table.dayschedule td.slice_1,
+table.dayschedule td.slice_3 {
+	font-size: 0.7em;
+	color: #aaa;
+}
+table.dayschedule td.slice_2 {
+	font-size: 0.7em;
+	color: #aaa;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+table.dayschedule p { height: 5em; }
+table.dayschedule p.size_1  { height: 1.0em; }
+table.dayschedule p.size_2  { height: 1.0em; }
+table.dayschedule p.size_3  { height: 1.0em; }
+table.dayschedule p.size_4  { height: 1.0em; }
+table.dayschedule p.size_5  { height: 1.0em; }
+table.dayschedule p.size_6  { height: 1.0em; }
+table.dayschedule p.size_7 { height: 1.0em; }
+table.dayschedule p.size_8 { height: 1.0em; }
+table.dayschedule p.size_9 { height: 1.5em; }
+table.dayschedule p.size_10 { height: 2.0em; }
+table.dayschedule p.size_11 { height: 2.5em; }
+table.dayschedule p.size_12 { height: 3.0em; }
+table.dayschedule p.size_13 { height: 4em; }
+table.dayschedule p.size_14 { height: 4.0em; }
+table.dayschedule p.size_15 { height: 5em; }
+table.dayschedule p.size_16 { height: 5.0em; }
+table.dayschedule p.size_24 { height: 6.0em; }
+
+/***************  Appointments with a table section ****************/
+table.list div.appointments {
+	display: block;
+	border: 0px;
+	vertical-align: top;
+	width: 100%;
+}
+
+table.list div.appointments table.dayschedule {
+	background: #ddd;
+	border: 0px;
+	empty-cells: show;
+	width: 100%;
+	margin: 1px;
+	padding: 0px;
+	font-size: 0.8em;
+	/* border-collapse: collapse; */
+	border-top: 1px solid #bb0;
+	border-left: 1px solid #bbb;
+}
+
+table.list div.appointments table.dayschedule td {
+	text-align: center;
+	padding: 0.25em;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	font-size: 1.0em;
+}
+
+table.list div.appointments table.dayschedule td.schedule_time {
+	background: #eee;
+	cursor: pointer;
+	text-align: right;
+	vertical-align: top;
+	width: 5em;
+	max-width: 10em;
+	border-right: 0px solid #eee;
+}
+
+table.list div.appointments table.dayschedule tr {
+	height: 0.5em !important;
+	max-height: 0.4em !important;
+}
+
+table.list div.appointments table.dayschedule td.schedule_interval {
+	height: 0.5em;
+	max-height: 0.5em !important;
+	width: 0.4em;
+	margin: 0px;
+	padding: 0px;
+	border-left: 0px solid #eee;
+}
+ 
+table.list div.appointments table.dayschedule td.schedule_appointment {
+	text-align: left;
+	vertical-align: top;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+
+table.list div.appointments table.dayschedule td.schedule_appointment div.schedule_appointment {
+	text-align: left;
+	overflow: hidden;
+	padding: 0.5em;
+	margin: 0px;
+}
+
+table.list div.appointments table.dayschedule td.schedule_appointment p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0px;
+	padding: 0px;
+}
+ 
+table.list div.appointments table.dayschedule td.empty {
+	background: #eee;
+	cursor: default;
+}
+table.list div.appointments table.dayschedule td.slice_0 {
+	border-bottom: 1px solid #dfdfdf;
+	font-size: 1.0em;
+}
+table.list div.appointments table.dayschedule td.slice_1,
+table.list div.appointments table.dayschedule td.slice_3 {
+	font-size: 0.8em;
+	color: #aaa;
+}
+table.list div.appointments table.dayschedule td.slice_2 {
+	font-size: 0.8em;
+	color: #aaa;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+table.list div.appointments table.dayschedule p { height: 12em; }
+table.list div.appointments table.dayschedule p.size_1  { height: 1.0em; }
+table.list div.appointments table.dayschedule p.size_2  { height: 1.0em; }
+table.list div.appointments table.dayschedule p.size_3  { height: 1.0em; }
+table.list div.appointments table.dayschedule p.size_4  { height: 1.0em; }
+table.list div.appointments table.dayschedule p.size_5  { height: 1.0em; }
+table.list div.appointments table.dayschedule p.size_6  { height: 2.0em; }
+table.list div.appointments table.dayschedule p.size_7 { height: 2.5em; }
+table.list div.appointments table.dayschedule p.size_8 { height: 3em; }
+table.list div.appointments table.dayschedule p.size_9 { height: 3.5em; }
+table.list div.appointments table.dayschedule p.size_10 { height: 4em; }
+table.list div.appointments table.dayschedule p.size_11 { height: 4.5em; }
+table.list div.appointments table.dayschedule p.size_12 { height: 5em; }
+table.list div.appointments table.dayschedule p.size_13 { height: 5.5em; }
+table.list div.appointments table.dayschedule p.size_14 { height: 6em; }
+table.list div.appointments table.dayschedule p.size_15 { height: 6.5em; }
+table.list div.appointments table.dayschedule p.size_16 { height: 7em; }
+table.list div.appointments table.dayschedule p.size_17 { height: 7.5em; }
+table.list div.appointments table.dayschedule p.size_18 { height: 8em; }
+table.list div.appointments table.dayschedule p.size_24 { height: 11em; }
+
 
 
 /* Text block markups */

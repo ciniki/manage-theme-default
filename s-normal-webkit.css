@@ -25,6 +25,7 @@ h2 {
 	-webkit-box-shadow: #777 1px 1px 3px;
 }
 
+div.wide table.datepicker,
 div.wide table.simplegrid {
 	width: 100%;
 }

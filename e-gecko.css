@@ -156,6 +156,6 @@ table.list td > div.colourswatches > span.selected {
 	 box-shadow: #777 1px 1px 3px;
 }
 
-table.list div.appointments table.appointments td.schedule_appointment {
+table.dayschedule td.schedule_appointment {
 	-moz-border-radius: 7px;
 }
