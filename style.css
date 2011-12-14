@@ -832,6 +832,30 @@ table.datepicker > tbody > tr > td.date {
 	text-align: center;
 }
 
+table.datepickersearch > tbody > tr > td.date {
+	text-align: left;
+}
+
+table.datepickersearch > tbody > tr > td.search {
+	text-align: right;
+	width: 40%;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+table.datepickersearch > tbody > tr > td.search input {
+	width: 100%;
+	height: 100%;
+	padding: 0.3em;
+	padding-right: 0;
+	font-size: 1.0em;
+	color: #555;
+	text-align: left;
+	margin: 0.3em;
+	text-overflow: ellipsis
+	white-space: nowrap;
+}
+
 table.datepicker > tbody > tr > td.prev {
 	text-align: left;
 }

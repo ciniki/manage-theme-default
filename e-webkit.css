@@ -1,3 +1,8 @@
+table.datepicker input {
+	-webkit-border-radius: 7px;
+	-webkit-box-shadow: #ccc 0px 1px 1px inset;
+}
+
 table.form td.textarea,
 table.form td.input input {
 	-webkit-border-radius: 7px;
