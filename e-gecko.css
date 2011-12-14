@@ -1,12 +1,13 @@
-table.datepicker input {
-	-moz-border-radius: 7px;
-	box-shadow: #ccc 0px 1px 1px inset;
-}
 
 table.form td.textarea,
 table.form td.input input {
 	-moz-border-radius: 7px;
 	box-shadow: #777 0px 1px 3px inset;
+}
+
+table.datepicker input {
+	-moz-border-radius: 7px;
+	box-shadow: #eee 0px 1px 1px inset;
 }
 
 table.list tr.textfield > td > input:-moz-placeholder {

@@ -1,16 +1,20 @@
-table.datepicker input {
-	-webkit-border-radius: 7px;
-	-webkit-box-shadow: #ccc 0px 1px 1px inset;
-}
-
 table.form td.textarea,
 table.form td.input input {
 	-webkit-border-radius: 7px;
 	-webkit-box-shadow: #777 0px 1px 3px inset;
 }
 
+table.datepicker input {
+	-webkit-border-radius: 7px;
+	-webkit-box-shadow: #eee 0px 1px 1px inset;
+}
+
 input, textarea {
 	-webkit-appearance: none;
+}
+
+input:focus {
+	outline: none;
 }
 
 table.form tr.textfield > td > input.search {
