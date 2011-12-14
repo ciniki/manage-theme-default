@@ -1138,6 +1138,7 @@ table.list div.appointments table.dayschedule td.schedule_interval {
 	margin: 0px;
 	padding: 0px;
 	border-left: 0px solid #eee;
+	background: #eee;
 }
  
 table.list div.appointments table.dayschedule td.schedule_appointment {
