@@ -89,6 +89,18 @@ div.mediumflex {
 	margin: 0 auto;
 }
 
+div.large {
+	width: 50em;
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+div.xlarge {
+	width: 60em;
+	max-width: 95%;
+	margin: 0 auto;
+}
+
 div.panel {
 	text-align: center;
 	margin: 0 auto;

@@ -83,6 +83,12 @@ div.medium {
 	padding-bottom: 1em;
 }
 
+div.xlarge,
+div.large {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
 div.wide {
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -139,6 +145,15 @@ div.medium table.list {
 div.mediumflex table.list {
 	min-width: 40em;
 	max-width: 60em;
+}
+
+div.large table.list {
+	width: 100%;
+}
+
+div.xlarge table.list {
+	width: 60em;
+	max-width: 95%;
 }
 
 table.list {
@@ -356,6 +371,8 @@ table.list tr.textfield > td.toggle > img {
 
 div.narrow table.list tr.textfield > td.textarea,
 div.medium table.list tr.textfield > td.textarea,
+div.large table.list tr.textfield > td.textarea,
+div.xlarge table.list tr.textfield > td.textarea,
 div.wide table.list tr.textfield > td.textarea {
 	width: 100%;
 }
@@ -1036,7 +1053,12 @@ table.dayschedule td.schedule_appointment {
 	text-overflow: ellipsis;
 	padding: 0.5em;
 	margin: 0.5em;
-	font-size: 1.0em;
+	font-size: 0.9em;
+}
+
+table.dayschedule td.schedule_appointment span.secondary {
+	color: #777;
+	font-size: 0.8em;
 }
 
 table.dayschedule td.schedule_appointment span.colourswatch {

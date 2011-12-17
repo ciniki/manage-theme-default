@@ -106,10 +106,13 @@ div.narrow {
 	margin: 0 auto;
 }
 
-div.medium {
+div.medium,
+div.large,
+div.xlarge {
 	width: 95%;
 	margin: 0 auto;
 }
+
 
 table.list table.fieldhistory tr td.user {
 	border-bottom: 1px dashed #bbb;
