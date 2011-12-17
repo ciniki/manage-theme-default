@@ -253,7 +253,7 @@ table.list > tbody > tr > td.buttons {
 	width: 2em;
 }
 
-table.border tr.textfield > td.label {
+table.border tr > td.label {
 	border-left: 1px solid #bbb;	
 	border-right: 0px solid #bbb;	
 }
