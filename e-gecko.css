@@ -143,6 +143,7 @@ table.list > tbody > tr:last-child > td:first-child > textarea,
 table.form > tbody > tr table,
 table.form > tbody > tr table tbody,
 table.list > tbody > tr table tr:last-child > td:first-child,
+table.list > tbody > tr:last-child > th:first-child,
 table.list > tbody > tr:last-child > td:first-child {
 	-moz-border-radius-bottomleft: 7px;
 }
@@ -164,4 +165,8 @@ table.list td > div.colourswatches > span.selected {
 
 table.dayschedule td.schedule_appointment {
 	-moz-border-radius: 7px;
+}
+
+#mh_header {
+	width: 33%;
 }

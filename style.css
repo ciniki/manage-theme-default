@@ -152,8 +152,7 @@ div.large table.list {
 }
 
 div.xlarge table.list {
-	width: 60em;
-	max-width: 95%;
+	max-width: 100%;
 }
 
 table.list {
@@ -537,11 +536,6 @@ table.form tr.fieldcolourpicker div.colours table.colours {
 table.form tr.fieldcolourpicker div.colours table.colours td {
 	background: #eee;
 	padding: 0.3em;
-}
-
-
-table.list table.appointments td.appointment {
-	
 }
 
 table.list table.fieldhistory tr td {
@@ -1061,7 +1055,7 @@ table.dayschedule td.schedule_appointment span.secondary {
 	font-size: 0.8em;
 }
 
-table.dayschedule td.schedule_appointment span.colourswatch {
+table.dayschedule span.colourswatch {
 	display: inline-block;
 	margin: 0.0em;
 	padding: 0.6em;
@@ -1103,20 +1097,20 @@ table.dayschedule td.slice_2 {
 	border-bottom: 1px solid #dfdfdf;
 }
 
-table.dayschedule p { height: 5em; }
-table.dayschedule p.size_1  { height: 1.0em; }
-table.dayschedule p.size_2  { height: 1.0em; }
-table.dayschedule p.size_3  { height: 1.0em; }
-table.dayschedule p.size_4  { height: 1.0em; }
-table.dayschedule p.size_5  { height: 1.0em; }
-table.dayschedule p.size_6  { height: 1.0em; }
-table.dayschedule p.size_7 { height: 1.0em; }
-table.dayschedule p.size_8 { height: 1.0em; }
+table.dayschedule p { height: 6em; }
+table.dayschedule p.size_1  { height: 1.2em; }
+table.dayschedule p.size_2  { height: 1.2em; }
+table.dayschedule p.size_3  { height: 1.2em; }
+table.dayschedule p.size_4  { height: 1.2em; }
+table.dayschedule p.size_5  { height: 1.2em; }
+table.dayschedule p.size_6  { height: 1.2em; }
+table.dayschedule p.size_7 { height: 1.2em; }
+table.dayschedule p.size_8 { height: 1.2em; }
 table.dayschedule p.size_9 { height: 1.5em; }
 table.dayschedule p.size_10 { height: 2.0em; }
 table.dayschedule p.size_11 { height: 2.5em; }
-table.dayschedule p.size_12 { height: 3.0em; }
-table.dayschedule p.size_13 { height: 4em; }
+table.dayschedule p.size_12 { height: 4em; }
+table.dayschedule p.size_13 { height: 4.2em; }
 table.dayschedule p.size_14 { height: 4.0em; }
 table.dayschedule p.size_15 { height: 5em; }
 table.dayschedule p.size_16 { height: 5.0em; }

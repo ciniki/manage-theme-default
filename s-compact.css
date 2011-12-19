@@ -210,3 +210,30 @@ div.wide {
 	text-align: center;
 	margin: 0 auto;
 }
+
+table.simplegrid tr.split_element {
+	
+}
+
+table.simplegrid tr.split th,
+table.simplegrid tr.split td {
+	border-bottom: 1px dashed #bbb;
+}
+
+table.simplegrid tr.split_element th {
+	border-left: 1px solid #bbb;
+	background: #eee;
+	text-align: right;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+}
+
+table.simplegrid tr.split_element th,
+table.simplegrid tr.split_element td {
+	border-bottom: 1px dashed #bbb;
+}
+
+table.simplegrid tr.split_last th,
+table.simplegrid tr.split_last td {
+	border-bottom: 1px solid #bbb;
+}
