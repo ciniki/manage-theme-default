@@ -327,7 +327,7 @@ table.list tr.textfield > td.input {
 table.list tr.gridfields > td > input,
 table.list tr.textfield > td > input {
 	width: 100%;
-	height: 100%;
+	height: 1em;
 	padding: 0.4em;
 	padding-right: 0;
 	font-size: 1.0em;
@@ -910,6 +910,24 @@ table.form > tbody > tr > td.flags {
 	padding: 0em 0.25em 0em 0.25em;
 }
 
+table.form > tbody > tr > td div.buttons {
+	display: inline-block;
+	padding-left: 0.6em;
+}
+
+table.form > tbody > tr > td div.nopadbuttons {
+	padding-left: 0em;
+}
+
+table.form > tbody > tr > td.multitoggle div {
+	display: inline-block;
+}
+
+table.form > tbody > tr > td.multitoggle span.hint {
+	color: #999;
+	padding-left: 0.6em;
+}
+
 table.form > tbody > tr > td.joinedflags div {
 	display: table;
 }
@@ -937,8 +955,8 @@ table.form span.flag_off {
 
 table.form td.joinedflags span.flag_on,
 table.form td.joinedflags span.flag_off, 
-table.form td.multitoggle span.toggle_on,
-table.form td.multitoggle span.toggle_off {
+table.form td div span.toggle_on,
+table.form td div span.toggle_off {
 	display: inline-block;
 	border: 1px solid #777;
 	font-weight: bold; 
@@ -949,11 +967,11 @@ table.form td.multitoggle span.toggle_off {
 	cursor: pointer;
 }
 
-table.form td.multitoggle span.toggle_on {
+table.form td div span.toggle_on {
 	color: #000;
 }
 
-table.form td.multitoggle span.toggle_off {
+table.form td div span.toggle_off {
 	color: #bbb;
 }
 
@@ -1081,6 +1099,10 @@ table.dayschedule td.schedule_appointment p {
 table.dayschedule td.empty {
 	background: #fff;
 	cursor: default;
+}
+table.dayschedule td.allday {
+	font-size: 0.9em;
+	height: 1.5em;
 }
 table.dayschedule td.slice_0 {
 	border-bottom: 1px solid #dfdfdf;

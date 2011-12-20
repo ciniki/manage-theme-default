@@ -143,6 +143,10 @@ table.list tr.textfield > td > input.datetime {
 	max-width: 12em;
 }
 
+table.list tr.textfield > td > input.timeduration {
+	max-width: 6em;
+}
+
 table.list tr.textfield > td > input.integer,
 table.list tr.textfield > td > input.small,
 table.list tr.textfield > td > input.date,
