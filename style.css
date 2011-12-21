@@ -943,6 +943,7 @@ table.form td.flags span.flag_off {
 	margin: 0;
 	margin: 0.25em;
 	cursor: pointer;
+	font-size: 0.9em;
 }
 
 table.form span.flag_on {
@@ -965,6 +966,7 @@ table.form td div span.toggle_off {
 	padding-right: 0.5em;
 	margin: 0.25em 0 0.25em 0;
 	cursor: pointer;
+	font-size: 0.9em;
 }
 
 table.form td div span.toggle_on {
