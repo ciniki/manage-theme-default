@@ -173,8 +173,9 @@ table.thread {
 table.simplegrid {
 	table-layout: auto;
 	margin-top: 0;
-	margin-left: auto;
-	margin-right: auto;
+/*	margin-left: auto;
+	margin-right: auto; */
+	width: 100%;
 }
 
 table.simplegrid th.sortable {
@@ -975,6 +976,20 @@ table.form td div span.toggle_on {
 
 table.form td div span.toggle_off {
 	color: #bbb;
+}
+
+table.paneltabs {
+	margin-bottom: 0.5em;
+}
+
+table.paneltabs > tbody > tr > td {
+	padding: 0em;
+}
+
+table.paneltabs td div span.toggle_on,
+table.paneltabs td div span.toggle_off {
+	font-size: 1.0em;
+	margin: 0em;
 }
 
 span.username {
