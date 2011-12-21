@@ -122,7 +122,7 @@ table.simplebuttons > tbody > tr > td.delete {
 }
 
 table.list > tbody > tr:first-child > td:first-child > textarea,
-table.form > tbody > tr table,
+table.list > tbody > tr table,
 table.form > tbody > tr table tbody,
 table.form > tbody > tr table tr:first-child > td:first-child,
 table.header > thead > tr:first-child > th:first-child,
@@ -131,7 +131,7 @@ table.noheader > tbody > tr:first-child > td:first-child {
 }
 
 table.list > tbody > tr:first-child > td:last-child > textarea,
-table.form > tbody > tr table,
+table.list > tbody > tr table,
 table.form > tbody > tr table tbody,
 table.form > tbody > tr table tr:first-child > td:last-child,
 table.header > thead > tr:first-child > th:last-child,
@@ -140,7 +140,7 @@ table.noheader > tbody > tr:first-child > td:last-child {
 }
 
 table.list > tbody > tr:last-child > td:first-child > textarea,
-table.form > tbody > tr table,
+table.list > tbody > tr table,
 table.form > tbody > tr table tbody,
 table.list > tbody > tr table tr:last-child > td:first-child,
 table.list > tbody > tr:last-child > th:first-child,
