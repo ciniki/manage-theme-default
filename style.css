@@ -1085,7 +1085,7 @@ table.dayschedule td.schedule_appointment {
 	font-size: 0.9em;
 }
 
-table.dayschedule td.schedule_appointment span.secondary {
+table.dayschedule td span.secondary {
 	color: #777;
 	font-size: 0.8em;
 }
