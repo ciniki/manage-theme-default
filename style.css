@@ -340,6 +340,11 @@ table.list tr.textfield > td > input {
 	white-space: nowrap;
 }
 
+table.list tr.textfield > td > input.file {
+	height: 1.5em;
+}
+
+
 table.list tr.textfield > td.select {
 	width: 100%;
 	height: 100%;
