@@ -328,7 +328,7 @@ table.list tr.textfield > td.input {
 table.list tr.gridfields > td > input,
 table.list tr.textfield > td > input {
 	width: 100%;
-	height: 1em;
+	height: 1.2em;
 	padding: 0.4em;
 	padding-right: 0;
 	font-size: 1.0em;
@@ -416,10 +416,48 @@ table.border tr > td.historybutton {
 
 table.list tr > td.historybutton {
 	padding: 0.1em 0.5em 0.1em 0.2em;
+	padding: 0px;
 	cursor: pointer;
 	vertical-align: middle;
 	text-align: right;
-	width: 1.4em;
+}
+
+table.list tr.textarea > td.historybutton {
+	vertical-align: top;
+}
+
+span.rbutton_on,
+span.rbutton_off {
+	display: inline-block;
+	border: 1px solid #777;
+	font-weight: bold; 
+	padding: 0.25em 0.1em 0.25em 0.1em;
+	width: 1.5em;
+	margin: 0em 0.25em 0em 0.5em;
+	cursor: pointer;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+span.rbutton_on {
+	color: #000;
+}
+
+span.rbutton_off {
+	color: #bbb;
+}
+
+td.input span.rbutton_on,
+td.input span.rbutton_off,
+h2 span.rbutton_off {
+	position: relative;
+	margin-top: -0.3em;
+	top: -0.2em;
+	margin-left: 0.5em;
+}
+
+h2 span.rbutton_off {
+	font-size: 0.7em;
 }
 
 table.list tr > td > img.calendarbutton {
@@ -578,6 +616,7 @@ table.list tr > td.nohistorybutton {
 	padding: 0 0.5em 0 0em;
 }
 
+/* FIXME: REMOVE
 table.list tr > td.historybutton > img {
 	width: 1.4em;
 	vertical-align: middle;
@@ -587,6 +626,7 @@ table.list tr > td.calendarbutton > img {
 	width: 1.4em;
 	vertical-align: middle;
 }
+*/
 
 table.list tr > td.helpbutton > img {
 	width: 1.4em;
@@ -919,6 +959,7 @@ table.form > tbody > tr > td.flags {
 table.form > tbody > tr > td div.buttons {
 	display: inline-block;
 	padding-left: 0.6em;
+	margin: 0px;
 }
 
 table.form > tbody > tr > td div.nopadbuttons {
@@ -938,20 +979,6 @@ table.form > tbody > tr > td.joinedflags div {
 	display: table;
 }
 
-table.form td.flags span.flag_on,
-table.form td.flags span.flag_off {
-	display: inline-block;
-	border: 1px solid #777;
-	font-weight: bold; 
-	padding: 0.25em;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	margin: 0;
-	margin: 0.25em;
-	cursor: pointer;
-	font-size: 0.9em;
-}
-
 table.form span.flag_on {
 	color: #000;
 }
@@ -967,10 +994,8 @@ table.form td div span.toggle_off {
 	display: inline-block;
 	border: 1px solid #777;
 	font-weight: bold; 
-	padding: 0.25em;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	margin: 0.25em 0 0.25em 0;
+	padding: 0.4em 0.5em 0.4em 0.5em;
+	margin: 0.3em 0 0.3em 0;
 	cursor: pointer;
 	font-size: 0.9em;
 }
