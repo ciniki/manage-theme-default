@@ -45,6 +45,11 @@ table.simplebuttons > tbody > tr > td.button {
 	border: 0px;
 }
 
+h2 span.rbutton_off {
+	font-size: 0.7em;
+	padding: 0.2em 0.25em 0.2em 0.25em;
+}
+
 span.rbutton_on,
 span.rbutton_off {
 	-moz-border-radius: 1.5em;
