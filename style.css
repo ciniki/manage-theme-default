@@ -229,6 +229,9 @@ table.border > tbody > tr > td:last-child {
 table.list > tbody > tr > td {
 	padding: 0.5em 0.5em 0.45em 0.5em;
 }
+table.simplegrid > tbody > tr > td {
+	padding: 0.6em 0.5em 0.5em 0.5em;
+}
 
 table.border > tbody > tr > td {
 	border-bottom: 1px solid #bbb;
