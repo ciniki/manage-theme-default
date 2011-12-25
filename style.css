@@ -313,11 +313,12 @@ table.list tr.textfield > td.hidelabel > label {
 	overflow: hidden;
 }
 
-table.border tr.textfield > td.input {
+table.border tr > td.input {
 	border-left: 1px solid #bbb;	
 }
 
-table.list tr.textfield > td.input {
+
+table.list tr > td.input {
 	font-size: 1em;
 	width: 100%;
 	padding: 0.3em 0.5em 0.3em 0.2em;
@@ -325,8 +326,8 @@ table.list tr.textfield > td.input {
 	vertical-align: center;
 }
 
-table.list tr.gridfields > td > input,
-table.list tr.textfield > td > input {
+table.list tr > td > input,
+table.list tr > td > input {
 	width: 100%;
 	height: 1.2em;
 	padding: 0.4em;
@@ -338,6 +339,11 @@ table.list tr.textfield > td > input {
 	border: 0px;
 	text-overflow: ellipsis
 	white-space: nowrap;
+}
+
+table.livesearch tr > td.input {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 table.list tr.textfield > td > input.file {
@@ -368,10 +374,6 @@ table.list tr.textfield > td.toggle {
 	border-left: 0px;
 	text-align: left;
 	padding: 0.5em;
-}
-
-table.list tr.textfield > td.toggle > img {
-	height: 1.5em;
 }
 
 div.narrow table.list tr.textfield > td.textarea,
@@ -713,10 +715,12 @@ table.list td.nosearchresults {
 	padding: 0.5em;
 }
 
+table.form table.simplegrid,
 table.list table.searchresults {
 	padding: 0em;
 	width: 100%;
 	empty-cells: show;
+	margin-bottom: 0em;
 }
 
 table.list table.searchresults tr td {
