@@ -1,4 +1,3 @@
-
 table.form td.textarea,
 table.form td.input input {
 	-moz-border-radius: 7px;
@@ -110,16 +109,21 @@ table.simplebuttons > tbody > tr > td.delete {
 	text-shadow: 0 -1px 1px #953403; text-decoration: none; 
 	border: 0px;
 }
+.headerbar td.title {
+    text-shadow: #000 1px 1px 0px;
+}
 
+.headerbar td div.button {
+	text-shadow: 1px 1px 0px #667;
+}
+
+/*
 .headerbar button {
 	margin: 0 0.5em 0 0.5em;
 	padding: 3px 7px 3px 7px;
 	-moz-border-radius: 1em;
 }
 
-.headerbar td.title {
-    text-shadow: #000 1px 1px 0px;
-}
 
 .headerbar td.homebutton {
 	padding: 0.1em 0em 0.1em 0.3em;
@@ -128,7 +132,7 @@ table.simplebuttons > tbody > tr > td.delete {
 .headerbar td.helpbutton {
 	padding: 0.1em 0.3em 0.1em 0em;
 }
-
+*/
 .headerbar td.avatar img {
 	/* FIXME: In the future this can have rounded corners */
 }

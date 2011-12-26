@@ -1,60 +1,68 @@
 /******* The top bar across the window ******/
 .headerbar {
 	width: 100%;
-	background: #778;
 	height: 2.5em;
 	margin: 0px;
 	padding: 0px;
-	table-layout: fixed;
+	table-layout: auto;
+	z-index: 2;
 }
 
 .headerbar td {
 	margin: 0px;
 	padding: 0px;
-	vertical-align: middle;
+	vertical-align: bottom;
+	background: #778;
+	padding: 0.2em 0.3em 0.2em 0.3em;
 }
 
 .headerbar td.leftbuttons {
 	text-align:left;
-	padding: 0.3em 0.2em 0.2em 0.2em;
-	width: 20%;
+	margin: 0px;
+	cursor: pointer;
+	height: 100%;
+	vertical-align: bottom;
+	min-width: 2.5em;
 }
 
 .headerbar td.rightbuttons {
 	text-align:right;
-	padding: 0.3em 0.2em 0.2em 0em;
-	width: 20%;
+	margin: 0px;
+	align: right;
+	height: 100%;
+	cursor: pointer;
+	vertical-align: bottom;
+	min-width: 2.0em;
 }
 
-.headerbar td.homebutton {
-	text-align:center;
-	padding: 0.15em 0em 0.15em 0.4em;
-	width: 2.2em;
+.headerbar td.avatar {
+	text-align: center;
+	width: 3.0em;
+	border-right: 1px solid #667;
+	cursor: pointer;
+	vertical-align: middle;
 }
 
-.headerbar td.avatar img {
+.headerbar td.homebutton img.avatar {
 	width: 1.8em;
 	height: 1.8em;
+	margin: 0px;
 	border: 1px solid #eee;
 	vertical-align: middle;
 }
 
-.headerbar td.helpbutton {
-	text-align:center;
-	width: 2.1em;
-	padding: 0.2em 0.4em 0.2em 0em;
-}
-
 .headerbar td.title {
+	min-width: 10%; 
+	width: 80%;
+	max-width:90%;
 	font-size: 1.2em;
 	text-align:center;
 	color: #eee;
-	width: 50%;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	vertical-align: middle;
-	padding-top: 0.1em;
+	padding: 0.2em;
 }
 
 .headerbar td img {
@@ -64,7 +72,45 @@
 	vertical-align: middle;
 }
 
+.headerbar td.helpbutton {
+	border-left: 1px solid #889;
+}
 
+.headerbar td.homebutton {
+	border-right: 1px solid #667;
+	cursor: pointer;
+}
+
+.headerbar td.leftbuttons {
+	border-left: 1px solid #889;
+	border-right: 1px solid #667;
+}
+
+.headerbar td.rightbuttons {
+	border-left: 1px solid #889;
+	border-right: 1px solid #667;
+}
+
+.headerbar td.hide {
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.headerbar td.show {
+}
+
+.headerbar td div.button {
+	display: table-cell;
+	font-size: 0.8em;
+	vertical-align: bottom;
+	height: 100%;
+	min-width: 3.5em;
+	max-width: 5em;
+	text-align: center;
+	padding: 0em 0.2em 0em 0.2em;
+	color: #ddd;
+	cursor: pointer;
+}
 
 /************* Panel Markups      **************/
 

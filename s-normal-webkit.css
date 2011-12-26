@@ -25,6 +25,10 @@ h2 {
 	-webkit-box-shadow: #777 1px 1px 3px;
 }
 
+.subheaderbar td.title {
+	text-shadow: #000 1px 1px 0px;
+}
+
 div.wide table.datepicker,
 div.wide table.simplegrid {
 	width: 100%;

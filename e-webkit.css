@@ -114,6 +114,10 @@ textarea {
 	/* FIXME: In the future this can have rounded corners */
 }
 
+.headerbar td div.button {
+	text-shadow: 1px 1px 0px #667;
+}
+
 .subheaderbar {
 	margin: 0em 0.5em 0em 0.5em;
 	padding: 5px 10px 5px 10px;

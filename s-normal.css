@@ -12,10 +12,10 @@ body {
 .headerbar {
 	border-bottom: 1px solid #667;
 }
-
+/*
 .headerbar td.title {
 	width: 40%;
-}
+} 
 
 #mh_header.headerbar td.title {
 	width: 35%;
@@ -33,7 +33,7 @@ body {
 #mh_header.headerbar td.rightbuttons {
 	width: 45%;
 }
-
+*/
 #m_error table.list td {
 	background: #fff;
 }
