@@ -14,6 +14,8 @@
 	vertical-align: bottom;
 	background: #778;
 	padding: 0.2em 0.3em 0.2em 0.3em;
+	border-left: 1px solid #889;
+	border-right: 1px solid #667;
 }
 
 .headerbar td.leftbuttons {
@@ -38,7 +40,6 @@
 .headerbar td.avatar {
 	text-align: center;
 	width: 3.0em;
-	border-right: 1px solid #667;
 	cursor: pointer;
 	vertical-align: middle;
 }
@@ -62,7 +63,9 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 	vertical-align: middle;
-	padding: 0.2em;
+	padding: 0.3em 0.2em 0.2em 0.2em;
+	border-left: 0px;
+	border-right: 0px;
 }
 
 .headerbar td img {
@@ -73,22 +76,12 @@
 }
 
 .headerbar td.helpbutton {
-	border-left: 1px solid #889;
+	border-right: 0px;
 }
 
 .headerbar td.homebutton {
-	border-right: 1px solid #667;
 	cursor: pointer;
-}
-
-.headerbar td.leftbuttons {
-	border-left: 1px solid #889;
-	border-right: 1px solid #667;
-}
-
-.headerbar td.rightbuttons {
-	border-left: 1px solid #889;
-	border-right: 1px solid #667;
+	border-left: 0px;
 }
 
 .headerbar td.hide {
