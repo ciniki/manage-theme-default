@@ -113,26 +113,14 @@ table.simplebuttons > tbody > tr > td.delete {
     text-shadow: #000 1px 1px 0px;
 }
 
-.headerbar td div.button {
+.headerbar td div.button span.label {
 	text-shadow: 1px 1px 0px #667;
 }
 
-/*
-.headerbar button {
-	margin: 0 0.5em 0 0.5em;
-	padding: 3px 7px 3px 7px;
-	-moz-border-radius: 1em;
+.headerbar td div.button span.icon {
+	text-shadow: -1px -1px 0px #667;
 }
 
-
-.headerbar td.homebutton {
-	padding: 0.1em 0em 0.1em 0.3em;
-}
-
-.headerbar td.helpbutton {
-	padding: 0.1em 0.3em 0.1em 0em;
-}
-*/
 .headerbar td.avatar img {
 	/* FIXME: In the future this can have rounded corners */
 }

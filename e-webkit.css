@@ -114,8 +114,12 @@ textarea {
 	/* FIXME: In the future this can have rounded corners */
 }
 
-.headerbar td div.button {
+.headerbar td div.button span.label {
 	text-shadow: 1px 1px 0px #667;
+}
+
+.headerbar td div.button span.icon {
+	text-shadow: -1px -1px 0px #667;
 }
 
 .subheaderbar {

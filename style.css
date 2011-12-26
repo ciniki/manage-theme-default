@@ -25,6 +25,7 @@
 	height: 100%;
 	vertical-align: bottom;
 	min-width: 2.5em;
+	padding-top: 0px;
 }
 
 .headerbar td.rightbuttons {
@@ -35,6 +36,7 @@
 	cursor: pointer;
 	vertical-align: bottom;
 	min-width: 2.0em;
+	padding-top: 0px;
 }
 
 .headerbar td.avatar {
@@ -77,6 +79,7 @@
 
 .headerbar td.helpbutton {
 	border-right: 0px;
+	padding-top: 0px;
 }
 
 .headerbar td.homebutton {
@@ -103,6 +106,20 @@
 	padding: 0em 0.2em 0em 0.2em;
 	color: #ddd;
 	cursor: pointer;
+}
+
+.headerbar td div.button span {
+	display: inline-block;
+	width: 100%;
+}
+
+.headerbar td div.button span.icon {
+	font-size: 1.2em;
+	text-decoration: bold;
+	/* font-family: arial-bold; */
+	color: #99a;
+	max-height: 20px;
+	vertical-align: top;
 }
 
 /************* Panel Markups      **************/
