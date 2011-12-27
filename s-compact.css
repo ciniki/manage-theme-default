@@ -286,3 +286,8 @@ table.simplegrid tr.split_last th,
 table.simplegrid tr.split_last td {
 	border-bottom: 1px solid #bbb;
 }
+
+table.dayschedule td.schedule_time {
+	width: 3em;
+	max-width: 8em;
+}

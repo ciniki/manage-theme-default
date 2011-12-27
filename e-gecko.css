@@ -121,6 +121,10 @@ table.simplebuttons > tbody > tr > td.delete {
 	text-shadow: -1px -1px 0px #667;
 }
 
+.headerbar td div.button span.icon {
+	max-height: 15px;
+}
+
 .headerbar td.avatar img {
 	/* FIXME: In the future this can have rounded corners */
 }
