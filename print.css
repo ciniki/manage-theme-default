@@ -12,8 +12,10 @@ table.form td.input input {
 }
 
 #mc_home_button,
-#mc_left_buttons,
-#mc_right_buttons,
+#mc_leftbuttons_0,
+#mc_leftbuttons_1,
+#mc_rightbuttons_0,
+#mc_rightbuttons_1,
 #mc_help_button {
 	display: none;
 }
@@ -97,4 +99,5 @@ body,
 #mc_content_scroller,
 #mc_apps {
 	overflow: visible;
+	height: auto;
 }
