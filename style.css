@@ -1020,6 +1020,7 @@ table.list td > div.colourswatches > span.selected {
 	height: 1.2em;
 }
 
+table.form > tbody > tr > td.multiselect,
 table.form > tbody > tr > td.multitoggle,
 table.form > tbody > tr > td.joinedflags,
 table.form > tbody > tr > td.flags {
@@ -1036,10 +1037,12 @@ table.form > tbody > tr > td div.nopadbuttons {
 	padding-left: 0em;
 }
 
+table.form > tbody > tr > td.multiselect div,
 table.form > tbody > tr > td.multitoggle div {
 	display: inline-block;
 }
 
+table.form > tbody > tr > td.multiselect span.hint,
 table.form > tbody > tr > td.multitoggle span.hint {
 	color: #999;
 	padding-left: 0.6em;
