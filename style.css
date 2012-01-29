@@ -306,6 +306,18 @@ table.list > tbody > tr > td.noborder {
 	border-right: 0px;
 }
 
+table.list > tbody > tr > td.addbutton {
+	text-align: center;
+	padding-right: 0px;
+	width: 2em;
+	font-size: 1.5em;
+	color: #777;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
 table.list > tbody > tr > td.buttons {
 	text-align: right;
 	padding-right: 0px;
