@@ -251,6 +251,7 @@ div.wide h2 {
 table.outline {
 	border: 1px solid #ddd;
 	padding: 0.1em 0.1em 0.1em 0.1em;
+	background-color: rgba(255,255,255,0.4);
 }
 
 table.list > thead,
@@ -304,6 +305,18 @@ table.border > thead > tr > th {
 
 table.list > tbody > tr > td.noborder {
 	border-right: 0px;
+}
+
+table.list > tbody > tr > td.addbutton {
+	text-align: center;
+	padding-right: 0px;
+	width: 2em;
+	font-size: 1.5em;
+	color: #777;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 table.list > tbody > tr > td.buttons {
@@ -1020,6 +1033,7 @@ table.list td > div.colourswatches > span.selected {
 	height: 1.2em;
 }
 
+table.form > tbody > tr > td.multiselect,
 table.form > tbody > tr > td.multitoggle,
 table.form > tbody > tr > td.joinedflags,
 table.form > tbody > tr > td.flags {
@@ -1036,10 +1050,12 @@ table.form > tbody > tr > td div.nopadbuttons {
 	padding-left: 0em;
 }
 
+table.form > tbody > tr > td.multiselect div,
 table.form > tbody > tr > td.multitoggle div {
 	display: inline-block;
 }
 
+table.form > tbody > tr > td.multiselect span.hint,
 table.form > tbody > tr > td.multitoggle span.hint {
 	color: #999;
 	padding-left: 0.6em;
