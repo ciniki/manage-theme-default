@@ -898,6 +898,23 @@ table.simplegrid td.lightborderright {
 	border-right: 1px solid #ddd;
 }
 
+table.simplegrid td.thumbnail {
+	padding: 0.5em;
+	width: 2em;
+}
+
+table.simplegrid td.thumbnail img {
+}
+
+table.form td.input div.image_preview {
+	width: 100%;
+	text-align: center;
+}
+
+table.form td.input div.image_preview img {
+	border: 1px solid #000;
+}
+
 /*****  MEDIA display styles ****/
 div.media {
 	display: block;
