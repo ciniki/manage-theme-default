@@ -888,6 +888,16 @@ table.list > tbody > tr > td.multiline > span.subtext {
 	width: 100%;
 	font-size: 0.8em;
 	color: #999;
+	padding-top: 0.1em;
+	display: block;
+}
+
+table.list > tbody > tr > td.multiline > span.subsubtext {
+	width: 100%;
+	font-size: 0.8em;
+	color: #999;
+	padding-top: 0.1em;
+	display: block;
 }
 
 table.list > tbody > tr > td.aligncenter {
