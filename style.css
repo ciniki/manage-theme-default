@@ -480,8 +480,12 @@ table.list tr.textfield > td > textarea {
 	border: 0px;
 }
 
-table.form tr.textfield > td > textarea.small {
+table.list tr.textfield > td > textarea.small {
 	height: 3em;
+}
+
+table.list tr.textfield > td > textarea.large {
+	height: 20em;
 }
 
 table.list tr > td.noedit {
