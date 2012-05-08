@@ -39,6 +39,7 @@ button, input.button {
 	padding: 3px 10px 3px 10px;
 }
 
+table.form > tbody > tr > td.button,
 table.simplebuttons > tbody > tr > td.button {
 	background: -moz-linear-gradient(top, #999, #555); 
 	text-shadow: #555 -1px 1px 0px; 
@@ -106,6 +107,7 @@ table.form td div span.toggle_off:last-child {
 	-moz-border-radius-bottomright: 7px;
 }
 
+table.form > tbody > tr > td.delete,
 table.simplebuttons > tbody > tr > td.delete {
 	background: -moz-linear-gradient(top, #ec4a0b, #ad390c); 
 	text-shadow: 0 -1px 1px #953403; text-decoration: none; 

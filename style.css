@@ -349,6 +349,7 @@ table.simplelist td.label {
 	padding: 0.9em 0.55em 0.8em 0.55em;
 }
 
+table.form td.button,
 table.simplebuttons td.button {
 	text-align: center;	
 	cursor: pointer;
@@ -357,11 +358,13 @@ table.simplebuttons td.button {
 	color: #eee;
 }
 
+table.form td.save,
 table.simplebuttons td.save {
 	background: #555;
 	color: #eee;
 }
 
+table.form td.delete,
 table.simplebuttons td.delete {
 	background: #f55;
 	color: #eee;

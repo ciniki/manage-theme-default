@@ -89,6 +89,7 @@ table.list td > button {
 	-webkit-border-radius: 0.5em;
 }
 
+table.form > tbody > tr > td.button,
 table.simplebuttons > tbody > tr > td.button {
 	border: 0px;
 	background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#555));
@@ -97,6 +98,7 @@ table.simplebuttons > tbody > tr > td.button {
 }
 
 
+table.form > tbody > tr > td.delete,
 table.simplebuttons > tbody > tr > td.delete {
 	border: 0px;
 	background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #ec4a0b),color-stop(1, #ad390c));   
