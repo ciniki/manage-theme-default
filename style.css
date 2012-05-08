@@ -1144,6 +1144,17 @@ table.paneltabs td div span.toggle_off {
 	margin: 0em;
 }
 
+table.form tr td input.image_uploader {
+	height: 1px !important;
+	width: 1px !important;
+	font-size: 0.1em;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
 span.username {
 }
 
