@@ -932,6 +932,7 @@ table.form td.input div.image_preview img {
 	background-color: #fff;
 	padding: 8px;
 	border: 1px solid #aaa;
+	max-width: 100%;
 }
 
 /*****  MEDIA display styles ****/
