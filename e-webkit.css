@@ -106,6 +106,10 @@ table.simplebuttons > tbody > tr > td.delete {
 	text-decoration: none; 
 }
 
+table.list td > span.icon {
+	/* text-shadow: 1px 1px 0px #eee;  */
+}
+
 textarea {
 	-webkit-appearance: none;
 }
