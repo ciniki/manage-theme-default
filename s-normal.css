@@ -166,6 +166,7 @@ table.list tr.textfield > td > input.large {
 table.list > tbody > tr.followup > td.userdetails {
 	border-right: 1px dashed #bbb;
 	text-decoration: normal;
+	white-space: nowrap;
 }
 
 table.list > tbody > tr.followup > td.content {
