@@ -1281,7 +1281,7 @@ table.dayschedule {
 	/* margin: 1px; */
 	padding: 0px;
 	font-size: 1.0em;
-	border-top: 1px solid #bb0;
+	border-top: 1px solid #bbb;
 	border-left: 1px solid #bbb;
 }
 
@@ -1397,6 +1397,7 @@ table.dayschedule p.size_16 { height: 5.0em; }
 table.dayschedule p.size_24 { height: 6.0em; }
 
 /***************  Appointments with a table section ****************/
+/*
 table.list div.appointments {
 	display: block;
 	border: 0px;
@@ -1412,8 +1413,7 @@ table.list div.appointments table.dayschedule {
 	margin: 1px;
 	padding: 0px;
 	font-size: 0.8em;
-	/* border-collapse: collapse; */
-	border-top: 1px solid #bb0;
+	border-top: 1px solid #bbb;
 	border-left: 1px solid #bbb;
 }
 
@@ -1512,7 +1512,7 @@ table.list div.appointments table.dayschedule p.size_16 { height: 7em; }
 table.list div.appointments table.dayschedule p.size_17 { height: 7.5em; }
 table.list div.appointments table.dayschedule p.size_18 { height: 8em; }
 table.list div.appointments table.dayschedule p.size_24 { height: 11em; }
-
+*/
 
 
 /* Text block markups */
