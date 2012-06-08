@@ -153,33 +153,38 @@ table.list {
 	-webkit-border-radius: 7px;
 }
 
-
-table.list > tbody > tr:first-child > td:first-child > textarea,
-table.list > tbody > tr table,
-table.list > tbody > tr table tr:first-child > td:first-child,
+table.list > tbody:first-child > tr:first-child > td:first-child > textarea,
+table.list > tbody:first-child > tr table,
+table.list > tbody:first-child > tr table tr:first-child > td:first-child,
 table.header > thead > tr:first-child > th:first-child,
-table.noheader > tbody > tr:first-child > td:first-child {
+table.noheader > tbody:first-child > tr:first-child > td:first-child,
+table.list > tfoot:first-child > tr:first-child > td:first-child {
 	-webkit-border-top-left-radius: 7px;
 }
 
-table.list > tbody > tr:first-child > td:last-child > textarea,
-table.list > tbody > tr table,
-table.list > tbody > tr table tr:first-child > td:last-child,
+table.list > tbody:first-child > tr:first-child > td:last-child > textarea,
+table.list > tbody:first-child > tr table,
+table.list > tbody:first-child > tr table tr:first-child > td:last-child,
 table.header > thead > tr:first-child > th:last-child,
-table.noheader > tbody > tr:first-child > td:last-child {
+table.noheader > tbody:first-child > tr:first-child > td:last-child,
+table.list > tfoot:first-child > tr:first-child > td:last-child {
 	-webkit-border-top-right-radius: 7px;
 }
-table.list > tbody > tr:last-child > td:first-child > textarea,
-table.list > tbody > tr table,
-table.list > tbody > tr table tr:last-child > td:first-child,
-table.list > tbody > tr:last-child > th:first-child,
-table.list > tbody > tr:last-child > td:first-child {
+table.list > tbody:last-child > tr:last-child > td:first-child > textarea,
+table.list > tbody:last-child > tr table,
+table.list > tbody:last-child > tr table tr:last-child > td:first-child,
+table.list > thead:last-child > tr:last-child > th:first-child,
+table.list > tbody:last-child > tr:last-child > th:first-child,
+table.list > tbody:last-child > tr:last-child > td:first-child,
+table.list > tfoot > tr:last-child > td:first-child {
 	-webkit-border-bottom-left-radius: 7px;
 }
-table.list > tbody > tr:last-child > td:last-child > textarea,
-table.list > tbody > tr table,
-table.list > tbody > tr table tr:last-child > td:last-child,
-table.list > tbody > tr:last-child > td:last-child {
+table.list > tbody:last-child > tr:last-child > td:last-child > textarea,
+table.list > tbody:last-child > tr table,
+table.list > tbody:last-child > tr table tr:last-child > td:last-child,
+table.list > thead:last-child > tr:last-child > th:last-child,
+table.list > tbody:last-child > tr:last-child > td:last-child,
+table.list > tfoot > tr:last-child > td:last-child {
 	-webkit-border-bottom-right-radius: 7px;
 }
 

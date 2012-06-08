@@ -267,17 +267,20 @@ table.outline {
 }
 
 table.list > thead,
-table.list > tbody {
+table.list > tbody,
+table.list > tfoot {
 	width: 100%;
 }
 
 table.list > thead > tr,
+table.list > tfoot > tr,
 table.list > tbody > tr {
 	width: 100%;
 }
 
-table.border.header > thead > tr:first-child > th,
-table.border.noheader > tbody > tr:first-child > td {
+/* table.border.header > thead > tr:first-child > th, */
+table.border > tbody:first-child > tr:first-child > td,
+table.border > tfoot:first-child > tr:first-child > td {
 	border-top: 1px solid #bbb;
 }
 
@@ -286,23 +289,27 @@ table.border {
 }
 
 table.border > thead > tr > th:first-child,
+table.border > tfoot > tr > td:first-child,
 table.border > tbody > tr > td:first-child {
 	border-left: 1px solid #bbb;
 }
 
 table.border > thead > tr > th:last-child,
+table.border > tfoot > tr > td:last-child,
 table.border > tbody > tr > td:last-child {
 	border-right: 1px solid #bbb;
 }
 
-table.list > tbody > tr > td {
+table.list > tbody > tr > td,
+table.list > tfoot > tr > td {
 	padding: 0.7em 0.5em 0.7em 0.5em;
 }
 /* table.simplegrid > tbody > tr > td {
 	padding: 0.6em 0.5em 0.5em 0.5em;
 } */
 
-table.border > tbody > tr > td {
+table.border > tbody:last-child > tr > td,
+table.border > tfoot > tr > td {
 	border-bottom: 1px solid #bbb;
 }
 
@@ -315,7 +322,8 @@ table.border > thead > tr > th {
 	border-bottom: 1px solid #bbb;
 }
 
-table.list > tbody > tr > td.noborder {
+table.list > tbody > tr > td.noborder,
+table.list > tfoot > tr > td.noborder {
 	border-right: 0px;
 }
 
@@ -335,7 +343,8 @@ table.list > tbody > tr > td.addbutton {
 
 table.datepicker > tbody > tr > td.prev,
 table.datepicker > tbody > tr > td.next,
-table.list > tbody > tr > td.buttons {
+table.list > tbody > tr > td.buttons,
+table.list > tfoot > tr > td.buttons {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 1.0em;
@@ -357,6 +366,7 @@ table.datepicker > tbody > tr > td.next {
 table.datepicker > tbody > tr > td.prev span.icon,
 table.datepicker > tbody > tr > td.next span.icon,
 table.list > tbody > tr > td.buttons span.icon,
+table.list > tfoot > tr > td.buttons span.icon,
 table.list > tbody > tr > td.addbutton span.icon {
 	font-size: 0.9em;
 	color: #aaa; 
@@ -904,6 +914,10 @@ table.simplegrid td.center {
 	text-align: center;
 }
 
+table.simplegrid td.addlink {
+	color: #bbb;
+}
+
 table.list td div.dragdrop_cell {
 	width: 100%;
 	height: 1em;
@@ -954,7 +968,8 @@ table.list > tbody > tr > td.multiline > span.subsubtext {
 	display: block;
 }
 
-table.list > tbody > tr > td.aligncenter {
+table.list > tbody > tr > td.aligncenter,
+table.list > tfoot > tr > td.aligncenter {
 	text-align: center;
 }
 
@@ -989,7 +1004,7 @@ table.form td.input div.image_preview img {
 	background-color: #fff;
 	padding: 8px;
 	border: 1px solid #aaa;
-	max-width: 100%;
+	max-width: 95%;
 }
 
 /*****  MEDIA display styles ****/
