@@ -278,7 +278,7 @@ table.list > tbody > tr {
 	width: 100%;
 }
 
-/* table.border.header > thead > tr:first-child > th, */
+table.border > thead:first-child > tr:first-child > th,
 table.border > tbody:first-child > tr:first-child > td,
 table.border > tfoot:first-child > tr:first-child > td {
 	border-top: 1px solid #bbb;
