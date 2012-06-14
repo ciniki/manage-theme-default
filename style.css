@@ -309,7 +309,7 @@ table.list > tfoot > tr > td {
 	padding: 0.6em 0.5em 0.5em 0.5em;
 } */
 
-table.border > tbody:last-child > tr > td,
+table.border > tbody > tr > td,
 table.border > tfoot > tr > td {
 	border-bottom: 1px solid #bbb;
 }
@@ -919,6 +919,7 @@ table.simplegrid td.center {
 
 table.simplegrid td.addlink {
 	color: #bbb;
+	padding-left: 1.9em;
 }
 
 table.list td div.dragdrop_cell {
