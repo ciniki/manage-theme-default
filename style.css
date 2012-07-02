@@ -151,6 +151,18 @@ div.medium {
 	padding-bottom: 1em;
 }
 
+div.leftpanel {
+	vertical-align: top;
+	display: inline-block;
+	width: 45% !important;
+}
+div.rightpanel {
+	vertical-align: top;
+	display: inline-block;
+	width: 45% !important;
+	padding-left: 1em;
+}
+
 div.xlarge,
 div.large {
 	padding-top: 1em;
