@@ -1365,10 +1365,19 @@ table.dayschedule td span.secondary {
 table.dayschedule span.colourswatch {
 	display: inline-block;
 	margin: 0.0em;
-	padding: 0.6em;
-	width: 0.5em !important;
-	height: 0.5em !important;
-	font-size: 0.5em;
+	padding: 0.1em 0.1em 0.1em 0.1em;
+	width: 1.0em !important;
+	height: 1.0em !important;
+	font-size: 1.0em;
+	text-align: center;
+/*	vertical-align: top;*/
+
+/*	font-size: 1.1em;
+	text-decoration: none; */
+	font-family: CinikiRegular;
+/*	color: #99a;
+	max-height: 20px;
+	vertical-align: top; */
 }
 
 table.dayschedule td.schedule_appointment div.schedule_appointment {
