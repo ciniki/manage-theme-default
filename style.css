@@ -744,6 +744,42 @@ table.list > tbody > tr > td.truncate {
 	text-overflow: ellipsis;
 }
 
+table.list td p {
+	padding-top: 1em;
+	line-height: 1.4em;
+}
+table.list td p:first-child {
+	padding-top: 0em;
+}
+table.list td ul {
+	margin-top: 1em;
+	margin-bottom: 0em;
+}
+table.list td ul:first-child {
+	margin-top: 0em;
+}
+table.list td dl {
+	margin-top: 1em;
+	margin-bottom: 0em;
+}
+table.list td dl:first-child {
+	margin-top: 0em;
+}
+table.list td dl dt {
+	display: block;
+	clear: left;
+	float: left;
+	padding-right: 1em;
+}
+table.list td dl dd {
+	display: block;
+}
+
+
+table.list td em {
+	font-weight: bold;
+}
+
 p {
 	margin: 0;
 	/* padding: 1em 0.5em 1em 0.5em; */
@@ -982,6 +1018,11 @@ table.list > tbody > tr > td.multiline > span.subsubtext {
 	color: #999;
 	padding-top: 0.1em;
 	display: block;
+}
+
+table.list > tbody > tr > td.aligntop,
+table.list > tfoot > tr > td.aligntop {
+	vertical-align: top;
 }
 
 table.list > tbody > tr > td.aligncenter,
