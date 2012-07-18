@@ -769,10 +769,10 @@ table.list td dl dt {
 	display: block;
 	clear: left;
 	float: left;
-	padding-right: 1em;
 }
 table.list td dl dd {
 	display: block;
+	padding-left: 1em;
 }
 
 
@@ -1603,6 +1603,7 @@ div.wide table.text {
 }
 
 table.text tr.text td pre {
+	overflow-x: scroll;
 }
 
 table.text tr.text td p:first-child,
