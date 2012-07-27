@@ -1395,30 +1395,12 @@ table.dayschedule td.schedule_appointment {
 	text-overflow: ellipsis;
 	padding: 0.5em;
 	margin: 0.5em;
-	font-size: 0.9em;
+	font-size: 0.85em;
 }
 
 table.dayschedule td span.secondary {
 	color: #777;
 	font-size: 0.8em;
-}
-
-table.dayschedule span.colourswatch {
-	display: inline-block;
-	margin: 0.0em;
-	padding: 0.1em 0.1em 0.1em 0.1em;
-	width: 1.0em !important;
-	height: 1.0em !important;
-	font-size: 1.0em;
-	text-align: center;
-/*	vertical-align: top;*/
-
-/*	font-size: 1.1em;
-	text-decoration: none; */
-	font-family: CinikiRegular;
-/*	color: #99a;
-	max-height: 20px;
-	vertical-align: top; */
 }
 
 table.dayschedule td.schedule_appointment div.schedule_appointment {
@@ -1433,8 +1415,21 @@ table.dayschedule td.schedule_appointment p {
 	text-overflow: ellipsis;
 	margin: 0px;
 	padding: 0px;
+	line-height: 1.5em;
 }
  
+table.dayschedule span.colourswatch {
+	display: inline-block;
+	margin: 0.0em;
+	padding: 0.05em 0.05em 0.05em 0.05em;
+	width: 1.15em !important;
+	height: 1.15em !important;
+	font-size: 1.10em;
+	text-align: center;
+	font-family: CinikiRegular;
+	vertical-align: top;
+}
+
 table.dayschedule td.empty {
 	background: #fff;
 	cursor: default;
@@ -1459,14 +1454,14 @@ table.dayschedule td.slice_2 {
 }
 
 table.dayschedule p { height: 6em; }
-table.dayschedule p.size_1  { height: 1.2em; }
-table.dayschedule p.size_2  { height: 1.2em; }
-table.dayschedule p.size_3  { height: 1.2em; }
-table.dayschedule p.size_4  { height: 1.2em; }
-table.dayschedule p.size_5  { height: 1.2em; }
-table.dayschedule p.size_6  { height: 1.2em; }
-table.dayschedule p.size_7 { height: 1.2em; }
-table.dayschedule p.size_8 { height: 1.2em; }
+table.dayschedule p.size_1  { height: 1.5em; }
+table.dayschedule p.size_2  { height: 1.5em; }
+table.dayschedule p.size_3  { height: 1.5em; }
+table.dayschedule p.size_4  { height: 1.5em; }
+table.dayschedule p.size_5  { height: 1.5em; }
+table.dayschedule p.size_6  { height: 1.5em; }
+table.dayschedule p.size_7 { height: 1.5em; }
+table.dayschedule p.size_8 { height: 1.5em; }
 table.dayschedule p.size_9 { height: 1.5em; }
 table.dayschedule p.size_10 { height: 2.0em; }
 table.dayschedule p.size_11 { height: 2.5em; }
