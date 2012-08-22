@@ -1,5 +1,6 @@
 table.form td.textarea,
 table.form td.search input,
+table.form td.multiselect input,
 table.form td.input input {
 	-moz-border-radius: 7px;
 	border-radius: 7px;
