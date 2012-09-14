@@ -102,6 +102,7 @@
 .headerbar td.hide {
 	border-left: 0px;
 	border-right: 0px;
+	cursor: inherit;
 }
 
 .headerbar td.show {
