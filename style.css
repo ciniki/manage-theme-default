@@ -965,9 +965,14 @@ table.simplegrid td.center {
 	text-align: center;
 }
 
+table.dayschedule td.addlink,
 table.simplegrid td.addlink {
 	color: #bbb;
 	padding-left: 1.9em;
+}
+
+table.dayschedule td.addlink {
+	border-right: 0px;
 }
 
 table.list td div.dragdrop_cell {
@@ -990,6 +995,13 @@ table.list > tbody > tr > td.textbuttons {
 table.list > tbody > tr > td.multiline > span.maintext {
 	width: 100%;
 	display: block;
+}
+
+table.list > tbody > tr > td span.subdue {
+	font-size: 0.9em;
+	font-decoration: normal;
+	font-weight: normal;
+	color: #999;
 }
 
 table.list > tbody > tr > td.multiline {
