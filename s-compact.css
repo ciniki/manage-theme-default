@@ -222,6 +222,16 @@ table.list td.label {
 	white-space: nowrap;
 }
 
+table.border > thead > tr > th:last-child,
+table.border > tfoot > tr > td:last-child,
+table.border > tbody > tr > td:last-child {
+	border-right: 1px solid #bbb;
+}
+
+table.border tr:last-child > td {
+	border-bottom: 1px solid #bbb;
+}
+
 table.form tr.gridfields span.colourswatch {
 	padding: 0.0em;
 	margin: 0.0em;
