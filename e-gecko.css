@@ -249,6 +249,10 @@ table.dayschedule td.schedule_appointment {
 	border-radius: 7px;
 }
 
+table.services td span.job {
+	border-radius: 7px;
+}
+
 #mh_header {
 	width: 33%;
 }
