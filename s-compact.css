@@ -181,13 +181,13 @@ table.form tr > td > input.timeduration {
 	width: 6em;
 }
 
-table.form tr.textfield > td > input.integer,
-table.form tr.textfield > td > input.small {
+table.form tr > td > input.integer,
+table.form tr > td > input.small {
 	max-width: 75%;
 	width: 9em;
 }
 
-table.list tr.textfield > td > input.date {
+table.list tr > td > input.date {
 	height: 1em;
 	width: 9em;
 	max-width: 75%;

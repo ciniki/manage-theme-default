@@ -147,16 +147,21 @@ table.list tr.textfield > td > input.timeduration {
 	max-width: 6em;
 }
 
-table.list tr.textfield > td > input.integer,
-table.list tr.textfield > td > input.small,
-table.list tr.textfield > td > input.date,
-table.list tr.textfield > td > input.hexcolour,
-table.list tr.textfield > td > input.time {
+table.list tr.gridfields > td.input input.integer,
+table.list tr.gridfields > td.input input.small,
+table.list tr.gridfields > td.input input.date,
+table.list tr.gridfields > td.input input.hexcolour,
+table.list tr.gridfields > td.input input.time,
+table.list tr > td input.integer,
+table.list tr > td input.small,
+table.list tr > td input.date,
+table.list tr > td input.hexcolour,
+table.list tr > td input.time {
 	max-width: 8em;
 }
 
 table.list tr.textfield > td > input.medium {
-	max-width: 25em;
+	max-width: 15em;
 }
 
 table.list tr.textfield > td > input.large {
