@@ -1518,6 +1518,19 @@ table.dayschedule p.size_15 { height: 5em; }
 table.dayschedule p.size_16 { height: 5.0em; }
 table.dayschedule p.size_24 { height: 6.0em; }
 
+table.html img {
+	max-width: 100%;
+	height: auto;
+}
+
+table.html > tbody > tr > td {
+	overflow: hidden;
+}
+
+table.html > tbody > tr > td pre {
+	overflow-y: scroll;
+}
+
 /***************  Appointments with a table section ****************/
 /*
 table.list div.appointments {
