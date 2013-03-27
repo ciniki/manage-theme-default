@@ -1528,7 +1528,8 @@ table.html > tbody > tr > td {
 }
 
 table.html > tbody > tr > td pre {
-	overflow-y: scroll;
+	overflow-x: scroll;
+	white-space: pre-wrap;
 }
 
 /***************  Appointments with a table section ****************/
@@ -1658,6 +1659,7 @@ div.wide table.text {
 
 table.text tr.text td pre {
 	overflow-x: scroll;
+	white-space: pre-wrap;
 }
 
 table.text tr.text td p:first-child,
