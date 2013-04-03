@@ -182,3 +182,23 @@ table.list > tbody > tr.followup > td.content {
 table.list td div.calendar {
 	width: 33%;
 }
+
+/* media queries to adjust screen based on width */
+@media screen and (min-width: 72em) {
+	div.mediumaside {
+		max-width: 70em;
+	}
+
+	div.mediumaside div.panelsection {
+		width: 39em;
+	}
+
+	div.aside {
+		float: right;
+		clear: right;
+		width: 20em;
+		max-width: 29em;
+		height: auto;
+	}
+
+}
