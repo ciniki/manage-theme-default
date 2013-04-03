@@ -61,6 +61,8 @@ table.form td div span.toggle_off:last-child {
 	-webkit-border-bottom-right-radius: 0.5em;
 }
 
+table.form tr.tags td span.toggle_on,
+table.form tr.tags td span.toggle_off,
 table.form td.flags span.flag_on,
 table.form td.flags span.flag_off {
 	-webkit-border-radius: 0.5em;

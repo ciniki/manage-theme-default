@@ -1295,6 +1295,11 @@ table.form td div span.toggle_off {
 	font-size: 0.9em;
 }
 
+table.form tr.tags div span.toggle_on,
+table.form tr.tags div span.toggle_off {
+	margin-right: 0.5em;
+}
+
 table.form td div span.toggle_on {
 	color: #000;
 }
