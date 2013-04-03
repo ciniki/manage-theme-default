@@ -195,10 +195,16 @@ table.list td div.calendar {
 
 	div.aside {
 		float: right;
-		clear: right;
+		clear: both;
 		width: 20em;
 		max-width: 29em;
 		height: auto;
+		margin-top: 0px;
 	}
 
+	div.mediumaside div.fullwidth,
+	div.mediumaside div.formtabs,
+	div.mediumaside div.paneltabs {
+		width: 100%;
+	}
 }

@@ -42,3 +42,29 @@ div.large,
 div.xlarge {
 	max-width: 95%;
 }
+
+/* media queries to adjust screen based on width */
+@media screen and (min-width: 60em) {
+	div.mediumaside {
+		max-width: 70em;
+	}
+
+	div.mediumaside div.panelsection {
+		width: 35em;
+	}
+
+	div.aside {
+		float: right;
+		clear: both;
+		width: 20em;
+		max-width: 24em;
+		height: auto;
+		margin-top: 0px;
+	}
+
+	div.mediumaside div.fullwidth,
+	div.mediumaside div.formtabs,
+	div.mediumaside div.paneltabs {
+		width: 100%;
+	}
+}
