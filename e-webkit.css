@@ -45,6 +45,7 @@ span.rbutton_on,
 span.rbutton_off {
 	-webkit-border-radius: 1em;
 }
+
 table.form td.joinedflags span.flag_on:first-child,
 table.form td.joinedflags span.flag_off:first-child,
 table.form td div span.toggle_on:first-child,
@@ -61,6 +62,8 @@ table.form td div span.toggle_off:last-child {
 	-webkit-border-bottom-right-radius: 0.5em;
 }
 
+table.form tr.multiselect span.toggle_on,
+table.form tr.multiselect span.toggle_off,
 table.form tr.tags td span.toggle_on,
 table.form tr.tags td span.toggle_off,
 table.form td.flags span.flag_on,

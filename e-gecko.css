@@ -65,6 +65,8 @@ span.rbutton_off {
 	width: 1.2em;
 }
 
+table.form tr.multiselect td span.toggle_on,
+table.form tr.multiselect td span.toggle_off,
 table.form tr.tags td span.toggle_on,
 table.form tr.tags td span.toggle_off,
 table.form td.flags span.flag_on,
