@@ -1236,18 +1236,8 @@ table.form > tbody > tr > td.multiselect,
 table.form > tbody > tr > td.multitoggle,
 table.form > tbody > tr > td.joinedflags,
 table.form > tbody > tr > td.flags {
-	/* width: 100%; */
 	padding: 0em 0.25em 0em 0.25em;
 }
-
-/* table.form > tbody > tr > td.joinedflags span.icon {
-	font-size: 1.1em;
-	text-decoration: none;
-	font-family: CinikiRegular;
-	color: #777; 
-	max-height: 20px;
-	vertical-align: top;
-} */
 
 table.form > tbody > tr > td div.buttons {
 	display: inline-block;
@@ -1282,6 +1272,8 @@ table.form span.flag_off {
 	color: #bbb;
 }
 
+table.form td.flags span.flag_on,
+table.form td.flags span.flag_off, 
 table.form td.joinedflags span.flag_on,
 table.form td.joinedflags span.flag_off, 
 table.form td div span.toggle_on,
@@ -1295,6 +1287,8 @@ table.form td div span.toggle_off {
 	font-size: 0.9em;
 }
 
+table.form td.flags span.flag_on,
+table.form td.flags span.flag_off,
 table.form tr.multiselect div span.toggle_on,
 table.form tr.multiselect div span.toggle_off,
 table.form tr.tags div span.toggle_on,
