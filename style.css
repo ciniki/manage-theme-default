@@ -407,6 +407,7 @@ table.list > tbody > tr > td.addbutton span.icon {
 table.border tr > td.label {
 	border-left: 1px solid #bbb;	
 	border-right: 0px solid #bbb;	
+	vertical-align: top;
 }
 
 table.list tr.textfield > td.label {
@@ -416,6 +417,7 @@ table.list tr.textfield > td.label {
 
 table.form tr.textfield > td.label > label {
 	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 table.simplegrid td.label,
