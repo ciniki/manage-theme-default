@@ -600,11 +600,14 @@ span.rbutton_off {
 	display: inline-block;
 	border: 1px solid #777;
 	padding: 0.25em 0.05em 0.25em 0.05em;
-	width: 1.4em;
+	padding: 0.25em 0.25em 0.25em 0.25em;
 	margin: 0em 0.25em 0em 0.5em;
 	cursor: pointer;
 	text-align: center;
 	font-size: 1.0em;
+	width: 1.0em;
+	height: 1.0em;
+	vertical-align: top;
 	text-decoration: none;
 	font-family: CinikiRegular;
 }
@@ -822,24 +825,10 @@ table.list tr > td.nohistorybutton {
 	padding: 0 0.5em 0 0em;
 }
 
-/* FIXME: REMOVE
-table.list tr > td.historybutton > img {
-	width: 1.4em;
-	vertical-align: middle;
-}
-
-table.list tr > td.calendarbutton > img {
-	width: 1.4em;
-	vertical-align: middle;
-}
-*/
-
 table.list tr > td.helpbutton > img {
 	width: 1.4em;
 	vertical-align: middle;
 }
-
-
 
 table.list tr.fieldhistory {
 	text-align: left;

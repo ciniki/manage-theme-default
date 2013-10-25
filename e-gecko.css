@@ -61,8 +61,6 @@ span.rbutton_on,
 span.rbutton_off {
 	-moz-border-radius: 1.5em;
 	border-radius: 1.5em;
-	padding: 0.25em 0.25em 0.25em 0.25em;
-	width: 1.2em;
 }
 
 table.form tr.multiselect td span.toggle_on,
