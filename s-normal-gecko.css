@@ -11,6 +11,11 @@ table.form {
 	box-shadow: none;
 }
 
+table.simplegrid {
+	-moz-border-radius: 7px;
+	box-shadow: #777 1px 1px 3px;
+}
+
 h2 {
 	text-shadow: #fff 1px 1px 0px;
 }

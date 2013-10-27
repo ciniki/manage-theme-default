@@ -311,8 +311,8 @@ table.border > tbody > tr > td:first-child {
 table.border > thead > tr > th:last-child,
 table.border > tfoot > tr > td:last-child,
 table.border > tbody > tr > td:last-child {
-/*	border-right: 1px solid #bbb; */
-	border-right: 0px;
+	border-right: 1px solid #bbb; 
+/*	border-right: 0px; */
 }
 
 table.fieldhistory > tbody > tr > td:last-child {
@@ -332,9 +332,14 @@ table.border > tfoot > tr > td {
 	border-bottom: 1px solid #bbb;
 }
 
-table.border > tbody > tr:last-child > td,
-table.border > tfoot > tr:last-child > td {
-	border-bottom: 0px;
+table.list > tbody > tr:last-child > td,
+table.list > tfoot > tr:last-child > td {
+	border-bottom: 0px; 
+}
+
+table.list > thead > tr > th:last-child,
+table.list > tbody > tr > td:last-child {
+	border-right: 0px; 
 }
 
 table.fieldhistory > tbody > tr:last-child > td {
