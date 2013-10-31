@@ -40,6 +40,7 @@ body {
 
 #m_forgot,
 #m_recover,
+#m_relogin,
 #m_login {
 	width: 100%;
 	text-align: center;
@@ -49,6 +50,7 @@ body {
 
 #m_forgot img.logo,
 #m_recover img.logo,
+#m_relogin img.logo,
 #m_login img.logo {
     text-align: center;
     padding-bottom: 20px;

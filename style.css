@@ -1702,6 +1702,7 @@ table.text tr.text td pre:last-child {
 /********** Login, Forgot and Recovery Forms **********/
 #m_forgot, 
 #m_recover,
+#m_relogin,
 #m_login {
 	position: absolute;
 	top: 0;
@@ -1713,6 +1714,7 @@ table.text tr.text td pre:last-child {
 
 #m_forgot form, 
 #m_recover form,
+#m_relogin form,
 #m_login form {
 	text-align: center;
 	font-size: 1em;
@@ -1722,6 +1724,7 @@ table.text tr.text td pre:last-child {
 
 #m_forgot input.button, 
 #m_recover input.button,
+#m_relogin input.button,
 #m_login input.button {
 	width: 100%;
 	margin-top: 5px;
@@ -1734,6 +1737,7 @@ table.text tr.text td pre:last-child {
 
 #m_forgot input.button, 
 #m_recover input.button,
+#m_relogin input.button,
 #m_login input.button {
 	width: 100%;
 	margin-top: 5px;
@@ -1745,6 +1749,7 @@ table.text tr.text td pre:last-child {
 
 #m_forgot p.right,
 #m_recover p.right,
+#m_relogin p.right,
 #m_login p.right{
 	text-align: right;
 	text-decoration: none;
@@ -1752,12 +1757,15 @@ table.text tr.text td pre:last-child {
 
 #m_forgot p.link a,
 #m_recover p.link a,
+#m_relogin p.link a,
 #m_login p.link a,
 #m_forgot p.link a:hover,
 #m_recover p.link a:hover,
+#m_relogin p.link a:hover,
 #m_login p.link a:hover,
 #m_forgot p.link a:visited,
 #m_recover p.link a:visited,
+#m_relogin p.link a:visited,
 #m_login p.link a:visited {
 	color: #777;
 	text-decoration: none;
