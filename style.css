@@ -308,12 +308,13 @@ table.border > tbody > tr > td:first-child {
 	border-left: 1px solid #bbb;
 }
 
+/* --remove nov 14, 2013
 table.border > thead > tr > th:last-child,
 table.border > tfoot > tr > td:last-child,
 table.border > tbody > tr > td:last-child {
 	border-right: 1px solid #bbb; 
-/*	border-right: 0px; */
-}
+	border-right: 0px; 
+} */
 
 table.fieldhistory > tbody > tr > td:last-child {
 	border-right: 1px solid #bbb; 
