@@ -1057,6 +1057,12 @@ table.list > tfoot > tr > td.aligncenter {
 	text-align: center;
 }
 
+table.list > thead > tr > th.alignright,
+table.list > tbody > tr > td.alignright,
+table.list > tfoot > tr > td.alignright {
+	text-align: right;
+}
+
 table.list td span.icon {
 	font-size: 1.1em;
 	text-decoration: none;
