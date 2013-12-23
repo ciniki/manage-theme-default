@@ -186,6 +186,7 @@ table.list > tbody:last-child > tr table tr:last-child > td:first-child,
 table.list > thead:last-child > tr:last-child > th:first-child,
 table.list > tbody:last-child > tr:last-child > th:first-child,
 table.list > tbody:last-child > tr:last-child > td:first-child,
+table.list > tfoot > tr:last-child > th:first-child, 
 table.list > tfoot > tr:last-child > td:first-child {
 	-moz-border-radius-bottomleft: 7px;
 	border-bottom-left-radius: 7px;
@@ -197,6 +198,7 @@ table.list > tbody:last-child > tr table,
 table.list > tbody:last-child > tr table tr:last-child > td:last-child,
 table.list > thead:last-child > tr:last-child > th:last-child,
 table.list > tbody:last-child > tr:last-child > td:last-child,
+table.list > tfoot > tr:last-child > th:last-child, 
 table.list > tfoot > tr:last-child > td:last-child {
 	-moz-border-radius-bottomright: 7px;
 	border-bottom-right-radius: 7px;
