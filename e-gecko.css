@@ -63,6 +63,8 @@ span.rbutton_off {
 	border-radius: 1.5em;
 }
 
+table.form tr.toggle td.multiselect span.toggle_on,
+table.form tr.toggle td.multiselect span.toggle_off,
 table.form tr.multiselect td span.toggle_on,
 table.form tr.multiselect td span.toggle_off,
 table.form tr.tags td span.toggle_on,

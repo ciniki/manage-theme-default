@@ -1304,6 +1304,8 @@ table.form td div span.toggle_off {
 
 table.form td.flags span.flag_on,
 table.form td.flags span.flag_off,
+table.form tr.toggle td.multiselect div span.toggle_on,
+table.form tr.toggle td.multiselect div span.toggle_off,
 table.form tr.multiselect div span.toggle_on,
 table.form tr.multiselect div span.toggle_off,
 table.form tr.tags div span.toggle_on,
