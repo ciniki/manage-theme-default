@@ -635,6 +635,8 @@ span.rbutton_off {
 	color: #bbb;
 }
 
+td.tags span.rbutton_on,
+td.tags span.rbutton_off,
 td.input span.rbutton_on,
 td.input span.rbutton_off,
 h2 span.rbutton_off {
@@ -644,6 +646,11 @@ h2 span.rbutton_off {
 	margin-left: 0.5em;
 }
 
+td.multiselect div span.rbutton_off {
+	margin-top: 0.4em;
+}
+
+td.tags span.rbutton_off,
 h2 span.rbutton_off {
 	font-size: 0.7em;
 }
@@ -1287,6 +1294,8 @@ table.form span.flag_off {
 	color: #bbb;
 }
 
+table.form td.tags span.rbutton_on,
+table.form td.tags span.rbutton_off,
 table.form td.flags span.flag_on,
 table.form td.flags span.flag_off, 
 table.form td.joinedflags span.flag_on,
@@ -1300,6 +1309,12 @@ table.form td div span.toggle_off {
 	margin: 0.3em 0 0.3em 0;
 	cursor: pointer;
 	font-size: 0.9em;
+}
+
+table td.tags span.rbutton_on,
+table td.tags span.rbutton_off {
+	vertical-align: middle;
+	margin-top: 0.3em;
 }
 
 table.form td.flags span.flag_on,
