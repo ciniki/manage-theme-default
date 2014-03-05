@@ -147,10 +147,12 @@ body {
 	margin: 0px;
 }
 
+div.narrowmulti,
 div.narrow {
 	width: 95%;
 	margin: 0 auto;
 }
+
 
 div.mediumflex,
 div.medium,

@@ -103,6 +103,20 @@ div.xlarge {
 	margin: 0 auto;
 }
 
+div.narrowmulticol {
+	width: 100%;
+}
+
+div.narrowmulti div.panelsection {
+	width: 20em;
+	margin: 0 auto;
+	display: inline-flex;
+}
+
+div.narrowmulti div.panelsection table {
+	width: 95%;
+}
+
 div.panel {
 	text-align: center;
 	margin: 0 auto;
