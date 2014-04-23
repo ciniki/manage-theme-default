@@ -164,8 +164,9 @@ div.rightpanel {
 	padding-left: 1em;
 }
 
+div.large,
 div.xlarge,
-div.large {
+div.full {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
@@ -229,7 +230,9 @@ div.mediumflex table.list {
 	max-width: 60em;
 }
 
-div.large table.list {
+div.large table.list,
+div.xlarge table.list,
+div.full table.list {
 	width: 100%;
 }
 
@@ -556,6 +559,7 @@ div.narrow table.list tr.textfield > td.textarea,
 div.medium table.list tr.textfield > td.textarea,
 div.large table.list tr.textfield > td.textarea,
 div.xlarge table.list tr.textfield > td.textarea,
+div.full table.list tr.textfield > td.textarea,
 div.wide table.list tr.textfield > td.textarea {
 	width: 100%;
 }

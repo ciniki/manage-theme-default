@@ -103,6 +103,11 @@ div.xlarge {
 	margin: 0 auto;
 }
 
+div.full {
+	max-width: 96%;
+	margin: 0 auto;
+}
+
 div.narrowmulticol {
 	width: 100%;
 }
@@ -124,7 +129,7 @@ div.panel {
 }
 
 div.wide {
-	display: inline-block;
+/*	display: inline-block; */
 	text-align: center;
 	margin: 0 auto;
 	padding-left: 1em;
