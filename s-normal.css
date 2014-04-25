@@ -214,9 +214,15 @@ table.list td div.calendar {
 		width: 39em;
 	}
 
+	div.asideleft {
+		float: left;
+		clear: left;
+		margin-top: 0px;
+	}
+
 	div.aside {
 		float: right;
-		clear: both;
+		clear: right;
 		width: 20em;
 		max-width: 29em;
 		height: auto;
