@@ -45,15 +45,15 @@ div.xlarge {
 
 /* media queries to adjust screen based on width */
 @media screen and (min-width: 60em) {
-	div.mediumaside {
+	div.help-off div.mediumaside {
 		max-width: 70em;
 	}
 
-	div.mediumaside div.panelsection {
+	div.help-off div.mediumaside div.panelsection {
 		width: 35em;
 	}
 
-	div.aside {
+	div.help-off div.aside {
 		float: right;
 		clear: both;
 		width: 20em;
@@ -62,9 +62,9 @@ div.xlarge {
 		margin-top: 0px;
 	}
 
-	div.mediumaside div.fullwidth,
-	div.mediumaside div.formtabs,
-	div.mediumaside div.paneltabs {
+	div.help-off div.mediumaside div.fullwidth,
+	div.help-off div.mediumaside div.formtabs,
+	div.help-off div.mediumaside div.paneltabs {
 		width: 100%;
 	}
 }

@@ -206,21 +206,21 @@ table.list td div.calendar {
 
 /* media queries to adjust screen based on width */
 @media screen and (min-width: 72em) {
-	div.mediumaside {
+	div.help-off div.mediumaside {
 		max-width: 70em;
 	}
 
-	div.mediumaside div.panelsection {
+	div.help-off div.mediumaside div.panelsection {
 		width: 39em;
 	}
 
-	div.asideleft {
+	div.help-off div.asideleft {
 		float: left;
 		clear: left;
 		margin-top: 0px;
 	}
 
-	div.aside {
+	div.help-off div.aside {
 		float: right;
 		clear: right;
 		width: 20em;
@@ -229,9 +229,9 @@ table.list td div.calendar {
 		margin-top: 0px;
 	}
 
-	div.mediumaside div.fullwidth,
-	div.mediumaside div.formtabs,
-	div.mediumaside div.paneltabs {
+	div.help-off div.mediumaside div.fullwidth,
+	div.help-off div.mediumaside div.formtabs,
+	div.help-off div.mediumaside div.paneltabs {
 		width: 100%;
 	}
 }
