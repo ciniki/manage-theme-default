@@ -1053,6 +1053,7 @@ table.list > tbody > tr > td.multiline span.subtext {
 table.list > tbody > tr > td.multiline > span.singleline {
 	overflow: hidden;
 	text-overflow: ellipsis;
+	max-height: 1.2em;
 }
 
 table.list > tbody > tr > td.nobreak {
