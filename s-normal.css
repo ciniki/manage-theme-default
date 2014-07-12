@@ -250,7 +250,11 @@ table.list td div.calendar {
 	div.help-off div.mediumaside {
 		max-width: 80em;
 	}
+	div.help-off div.mediumaside div.formtabs {
+		margin-left: 0px;
+	}
 	div.help-off div.mediumaside div.panelsection {
 		width: 45em;
 	}
+
 }
