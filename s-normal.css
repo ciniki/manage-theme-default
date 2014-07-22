@@ -224,6 +224,8 @@ table.list td div.calendar {
 		clear: left;
 		width: 35em;
 		max-width: 35em;
+		/* FIXME: needs to be 38 for date picker */
+		/* max-width: 38em; */
 		margin-left: 0px;
 		height: auto;
 		margin-top: 0px;
